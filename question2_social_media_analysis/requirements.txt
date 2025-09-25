@@ -1,5 +1,4 @@
 # Requirements.txt
-# Dependencies for Retail Pricing Analysis Pipeline
 
 # Core Data Science Libraries
 pandas>=1.5.0
@@ -23,24 +22,11 @@ plotly>=5.10.0
 # Statistical Analysis
 statsmodels>=0.13.0
 
-# Additional Visualization (Optional)
-squarify>=0.4.3
-
 # Data Processing
 openpyxl>=3.0.0  # For Excel file support
 xlrd>=2.0.0      # For reading older Excel files
 
-# Testing (Optional)
-pytest>=7.0.0
-pytest-cov>=3.0.0
-
-# Jupyter Notebook Support (Optional)
-jupyter>=1.0.0
-ipykernel>=6.15.0
-nbformat>=5.4.0
-
 # Progress Bars and Utilities
 tqdm>=4.64.0
 
-# Configuration Management
-python-dotenv>=0.20.0
+
