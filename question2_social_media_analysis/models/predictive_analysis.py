@@ -629,6 +629,9 @@ class PredictiveAnalyzer:
                     'mann_whitney_p_value': float(p_value),
                     'significant_difference': p_value < 0.05
                 }
+            else:
+                # Always set the key to avoid KeyError
+                results['price_availability_relationship']['significant_difference'] = False
             
             # Category-wise availability
             if 'category' in df.columns:
@@ -646,9 +649,9 @@ class PredictiveAnalyzer:
                 insights.append("Low overall stock availability (< 80%)")
             
             if 'price_availability_relationship' in results:
-                if results['price_availability_relationship']['significant_difference']:
-                    in_stock_mean = results['price_availability_relationship']['in_stock_price_mean']
-                    out_of_stock_mean = results['price_availability_relationship']['out_of_stock_price_mean']
+                if results['price_availability_relationship'].get('significant_difference', False):
+                    in_stock_mean = results['price_availability_relationship'].get('in_stock_price_mean', 0)
+                    out_of_stock_mean = results['price_availability_relationship'].get('out_of_stock_price_mean', 0)
                     
                     if in_stock_mean > out_of_stock_mean:
                         insights.append("In-stock items tend to be more expensive than out-of-stock items")

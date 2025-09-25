@@ -2,17 +2,14 @@
 Advanced Statistical Analysis Module
 Comprehensive statistical analysis for retail pricing data
 """
-
-import pandas as pd
+import warnings
+import logging
 import numpy as np
-import matplotlib.pyplot as plt
-import seaborn as sns
+import pandas as pd
 from scipy import stats
 from scipy.stats import chi2_contingency, ttest_ind, mannwhitneyu, pearsonr, spearmanr
-import warnings
 warnings.filterwarnings('ignore')
 from typing import Dict, List, Tuple, Optional
-import logging
 
 # Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -45,7 +42,7 @@ class StatisticalAnalyzer:
         for col in numerical_columns:
             if col not in df.columns:
                 continue
-                
+            
             data = df[col].dropna()
             
             if len(data) == 0:
@@ -73,15 +70,15 @@ class StatisticalAnalyzer:
                 mode_result = stats.mode(data)
                 stats_dict['mode'] = float(mode_result.mode[0])
                 stats_dict['mode_count'] = int(mode_result.count[0])
-            except:
+            except Exception:
                 stats_dict['mode'] = None
                 stats_dict['mode_count'] = None
             
             # Coefficient of variation
             if stats_dict['mean'] != 0:
-                stats_dict['cv'] = stats_dict['std'] / abs(stats_dict['mean'])
+                stats_dict['coef_var'] = float(stats_dict['std'] / stats_dict['mean'])
             else:
-                stats_dict['cv'] = None
+                stats_dict['coef_var'] = None
             
             results[col] = stats_dict
             
@@ -139,20 +136,16 @@ class StatisticalAnalyzer:
             # Statistical tests between categories
             categories = df[category_col].unique()
             if len(categories) > 1:
-                # ANOVA test for price differences between categories
-                category_groups = [df[df[category_col] == cat][price_col].dropna() 
-                                 for cat in categories if len(df[df[category_col] == cat]) > 1]
-                
-                if len(category_groups) > 1:
-                    try:
-                        f_stat, p_value = stats.f_oneway(*category_groups)
-                        results['category_comparisons']['anova'] = {
-                            'f_statistic': float(f_stat),
-                            'p_value': float(p_value),
-                            'significant': p_value < 0.05
-                        }
-                    except:
-                        results['category_comparisons']['anova'] = None
+                # Example: t-test between first two categories
+                cat1, cat2 = categories[:2]
+                prices1 = df[df[category_col] == cat1][price_col].dropna()
+                prices2 = df[df[category_col] == cat2][price_col].dropna()
+                if len(prices1) > 1 and len(prices2) > 1:
+                    t_stat, p_val = ttest_ind(prices1, prices2, equal_var=False)
+                    results['category_comparisons'][f"{cat1}_vs_{cat2}_ttest"] = {
+                        't_stat': float(t_stat),
+                        'p_value': float(p_val)
+                    }
         
         self.analysis_results['price_distribution'] = results
         logger.info("Completed price distribution analysis")
@@ -191,10 +184,15 @@ class StatisticalAnalyzer:
         }
         
         # Rating statistics
+        try:
+            mode_result = stats.mode(ratings)
+            mode_val = float(mode_result.mode[0])
+        except Exception:
+            mode_val = None
         results['rating_statistics'] = {
             'mean': float(np.mean(ratings)),
             'median': float(np.median(ratings)),
-            'mode': float(stats.mode(ratings)[0][0]),
+            'mode': mode_val,
             'std': float(np.std(ratings)),
             'skewness': float(stats.skew(ratings)),
             'kurtosis': float(stats.kurtosis(ratings))
@@ -203,31 +201,15 @@ class StatisticalAnalyzer:
         # Price-Rating relationship
         if price_col in df.columns:
             valid_data = df[[price_col, rating_col]].dropna()
-            
             if len(valid_data) > 2:
-                # Correlation analysis
                 pearson_corr, pearson_p = pearsonr(valid_data[price_col], valid_data[rating_col])
                 spearman_corr, spearman_p = spearmanr(valid_data[price_col], valid_data[rating_col])
-                
                 results['price_rating_relationship'] = {
-                    'pearson_correlation': {
-                        'coefficient': float(pearson_corr),
-                        'p_value': float(pearson_p),
-                        'significant': pearson_p < 0.05
-                    },
-                    'spearman_correlation': {
-                        'coefficient': float(spearman_corr),
-                        'p_value': float(spearman_p),
-                        'significant': spearman_p < 0.05
-                    }
+                    'pearson_correlation': float(pearson_corr),
+                    'pearson_p_value': float(pearson_p),
+                    'spearman_correlation': float(spearman_corr),
+                    'spearman_p_value': float(spearman_p)
                 }
-                
-                # Price by rating group analysis
-                rating_price_stats = valid_data.groupby(rating_col)[price_col].agg([
-                    'count', 'mean', 'median', 'std'
-                ]).round(2)
-                
-                results['price_rating_relationship']['price_by_rating'] = rating_price_stats.to_dict('index')
         
         self.analysis_results['rating_analysis'] = results
         logger.info("Completed rating analysis")
@@ -275,31 +257,15 @@ class StatisticalAnalyzer:
         # Find significant correlations
         for i, col1 in enumerate(existing_columns):
             for j, col2 in enumerate(existing_columns):
-                if i < j:  # Avoid duplicate pairs
-                    pearson_val = pearson_corr.loc[col1, col2]
-                    spearman_val = spearman_corr.loc[col1, col2]
-                    
-                    # Test significance
-                    try:
-                        _, p_pearson = pearsonr(correlation_data[col1], correlation_data[col2])
-                        _, p_spearman = spearmanr(correlation_data[col1], correlation_data[col2])
-                        
-                        if abs(pearson_val) > 0.3 or abs(spearman_val) > 0.3:
-                            results['significant_correlations'].append({
-                                'variables': [col1, col2],
-                                'pearson': {
-                                    'coefficient': float(pearson_val),
-                                    'p_value': float(p_pearson),
-                                    'significant': p_pearson < 0.05
-                                },
-                                'spearman': {
-                                    'coefficient': float(spearman_val),
-                                    'p_value': float(p_spearman),
-                                    'significant': p_spearman < 0.05
-                                }
-                            })
-                    except:
-                        continue
+                if i < j:
+                    corr_val, p_val = pearsonr(correlation_data[col1], correlation_data[col2])
+                    if abs(corr_val) > 0.5 and p_val < 0.05:
+                        results['significant_correlations'].append({
+                            'var1': col1,
+                            'var2': col2,
+                            'pearson_corr': float(corr_val),
+                            'p_value': float(p_val)
+                        })
         
         self.analysis_results['correlation_analysis'] = results
         logger.info(f"Completed correlation analysis for {len(existing_columns)} variables")
@@ -378,76 +344,21 @@ class StatisticalAnalyzer:
         results = {}
         
         for config in test_configs:
-            test_name = config.get('name', 'unnamed_test')
-            test_type = config.get('type')
-            
-            try:
-                if test_type == 'ttest_independent':
-                    # Independent t-test
-                    group_col = config['group_column']
-                    value_col = config['value_column']
-                    groups = config['groups']
-                    
-                    group1_data = df[df[group_col] == groups[0]][value_col].dropna()
-                    group2_data = df[df[group_col] == groups[1]][value_col].dropna()
-                    
-                    if len(group1_data) > 1 and len(group2_data) > 1:
-                        stat, p_value = ttest_ind(group1_data, group2_data)
-                        
-                        results[test_name] = {
-                            'test_type': 'independent_t_test',
-                            'statistic': float(stat),
-                            'p_value': float(p_value),
-                            'significant': p_value < 0.05,
-                            'group1_mean': float(np.mean(group1_data)),
-                            'group2_mean': float(np.mean(group2_data)),
-                            'group1_n': len(group1_data),
-                            'group2_n': len(group2_data)
+            test_type = config.get('test_type')
+            col1 = config.get('col1')
+            col2 = config.get('col2')
+            group_col = config.get('group_col')
+            if test_type == 'ttest' and col1 and col2 and group_col:
+                groups = df[group_col].dropna().unique()
+                if len(groups) == 2:
+                    data1 = df[df[group_col] == groups[0]][col1].dropna()
+                    data2 = df[df[group_col] == groups[1]][col2].dropna()
+                    if len(data1) > 1 and len(data2) > 1:
+                        t_stat, p_val = ttest_ind(data1, data2, equal_var=False)
+                        results[f"{groups[0]}_vs_{groups[1]}_ttest"] = {
+                            't_stat': float(t_stat),
+                            'p_value': float(p_val)
                         }
-                
-                elif test_type == 'mann_whitney':
-                    # Mann-Whitney U test
-                    group_col = config['group_column']
-                    value_col = config['value_column']
-                    groups = config['groups']
-                    
-                    group1_data = df[df[group_col] == groups[0]][value_col].dropna()
-                    group2_data = df[df[group_col] == groups[1]][value_col].dropna()
-                    
-                    if len(group1_data) > 1 and len(group2_data) > 1:
-                        stat, p_value = mannwhitneyu(group1_data, group2_data, alternative='two-sided')
-                        
-                        results[test_name] = {
-                            'test_type': 'mann_whitney_u',
-                            'statistic': float(stat),
-                            'p_value': float(p_value),
-                            'significant': p_value < 0.05,
-                            'group1_median': float(np.median(group1_data)),
-                            'group2_median': float(np.median(group2_data)),
-                            'group1_n': len(group1_data),
-                            'group2_n': len(group2_data)
-                        }
-                
-                elif test_type == 'chi_square':
-                    # Chi-square test of independence
-                    col1 = config['column1']
-                    col2 = config['column2']
-                    
-                    contingency_table = pd.crosstab(df[col1], df[col2])
-                    chi2, p_value, dof, expected = chi2_contingency(contingency_table)
-                    
-                    results[test_name] = {
-                        'test_type': 'chi_square_independence',
-                        'chi2_statistic': float(chi2),
-                        'p_value': float(p_value),
-                        'degrees_of_freedom': int(dof),
-                        'significant': p_value < 0.05,
-                        'contingency_table': contingency_table.to_dict()
-                    }
-                    
-            except Exception as e:
-                logger.error(f"Error in hypothesis test '{test_name}': {str(e)}")
-                results[test_name] = {'error': str(e)}
         
         self.analysis_results['hypothesis_tests'] = results
         logger.info(f"Completed {len(results)} hypothesis tests")
@@ -470,47 +381,25 @@ class StatisticalAnalyzer:
             columns = df.select_dtypes(include=[np.number]).columns.tolist()
             
         if methods is None:
-            methods = ['iqr', 'zscore', 'modified_zscore']
+            methods = ['iqr', 'zscore']
         
         results = {}
         
         for col in columns:
-            if col not in df.columns:
-                continue
-                
             data = df[col].dropna()
-            if len(data) == 0:
-                continue
-                
             col_results = {}
-            
-            for method in methods:
-                outliers = []
-                
-                if method == 'iqr':
-                    Q1 = np.percentile(data, 25)
-                    Q3 = np.percentile(data, 75)
-                    IQR = Q3 - Q1
-                    lower_bound = Q1 - 1.5 * IQR
-                    upper_bound = Q3 + 1.5 * IQR
-                    outliers = data[(data < lower_bound) | (data > upper_bound)].tolist()
-                    
-                elif method == 'zscore':
-                    z_scores = np.abs((data - np.mean(data)) / np.std(data))
-                    outliers = data[z_scores > 3].tolist()
-                    
-                elif method == 'modified_zscore':
-                    median = np.median(data)
-                    mad = np.median(np.abs(data - median))
-                    modified_z_scores = 0.6745 * (data - median) / mad
-                    outliers = data[np.abs(modified_z_scores) > 3.5].tolist()
-                
-                col_results[method] = {
-                    'outliers': outliers,
-                    'outlier_count': len(outliers),
-                    'outlier_percentage': round((len(outliers) / len(data)) * 100, 2)
-                }
-            
+            if 'iqr' in methods:
+                q1 = np.percentile(data, 25)
+                q3 = np.percentile(data, 75)
+                iqr = q3 - q1
+                lower_bound = q1 - 1.5 * iqr
+                upper_bound = q3 + 1.5 * iqr
+                outliers = data[(data < lower_bound) | (data > upper_bound)]
+                col_results['iqr_outliers'] = outliers.tolist()
+            if 'zscore' in methods:
+                z_scores = np.abs(stats.zscore(data))
+                outliers = data[z_scores > 3]
+                col_results['zscore_outliers'] = outliers.tolist()
             results[col] = col_results
         
         self.analysis_results['outlier_analysis'] = results
@@ -557,18 +446,13 @@ class StatisticalAnalyzer:
         
         # Example hypothesis tests for books data
         if 'category' in df.columns and 'price' in df.columns:
-            categories = df['category'].unique()
-            if len(categories) >= 2:
-                test_configs = [
-                    {
-                        'name': 'fiction_vs_nonfiction_price',
-                        'type': 'mann_whitney',
-                        'group_column': 'category',
-                        'value_column': 'price',
-                        'groups': [categories[0], categories[1]]
-                    }
-                ]
-                self.hypothesis_testing(df, test_configs)
+            test_configs = [{
+                'test_type': 'ttest',
+                'col1': 'price',
+                'col2': 'price',
+                'group_col': 'category'
+            }]
+            self.hypothesis_testing(df, test_configs)
         
         # Create summary report
         report = {
@@ -592,33 +476,32 @@ class StatisticalAnalyzer:
         
         # Price insights
         if 'price_distribution' in self.analysis_results:
-            price_data = self.analysis_results['price_distribution']['overall_distribution']
-            mean_price = price_data.get('mean', 0)
-            median_price = price_data.get('median', 0)
-            
-            if mean_price > median_price * 1.2:
-                insights.append("Price distribution is right-skewed, indicating presence of high-priced items")
+            pdist = self.analysis_results['price_distribution']
+            mean_price = pdist['overall_distribution'].get('mean')
+            median_price = pdist['overall_distribution'].get('median')
+            insights.append(f"Average price: {mean_price:.2f}, Median price: {median_price:.2f}")
         
         # Correlation insights
         if 'correlation_analysis' in self.analysis_results:
-            sig_corrs = self.analysis_results['correlation_analysis'].get('significant_correlations', [])
-            if sig_corrs:
-                insights.append(f"Found {len(sig_corrs)} significant correlations between variables")
+            corr = self.analysis_results['correlation_analysis']
+            for sig in corr.get('significant_correlations', []):
+                insights.append(f"Strong correlation between {sig['var1']} and {sig['var2']}: {sig['pearson_corr']:.2f} (p={sig['p_value']:.3f})")
         
         # Category insights
         if 'category_analysis' in self.analysis_results:
-            freq_data = self.analysis_results['category_analysis']['frequency_distribution']
-            total_cats = freq_data.get('total_categories', 0)
-            if total_cats > 0:
-                insights.append(f"Dataset contains {total_cats} unique categories")
+            cat = self.analysis_results['category_analysis']
+            most_pop = cat['frequency_distribution'].get('most_popular')
+            least_pop = cat['frequency_distribution'].get('least_popular')
+            insights.append(f"Most popular category: {most_pop}, Least popular: {least_pop}")
         
         # Outlier insights
         if 'outlier_analysis' in self.analysis_results:
-            for col, methods in self.analysis_results['outlier_analysis'].items():
-                for method, results in methods.items():
-                    outlier_pct = results.get('outlier_percentage', 0)
-                    if outlier_pct > 5:
-                        insights.append(f"High outlier percentage ({outlier_pct}%) in {col} using {method} method")
+            outliers = self.analysis_results['outlier_analysis']
+            for col, res in outliers.items():
+                if res.get('iqr_outliers'):
+                    insights.append(f"{len(res['iqr_outliers'])} IQR outliers detected in {col}")
+                if res.get('zscore_outliers'):
+                    insights.append(f"{len(res['zscore_outliers'])} Z-score outliers detected in {col}")
         
         return insights
 
@@ -637,7 +520,7 @@ if __name__ == "__main__":
         # Save results
         import json
         with open('data/statistical_analysis_report.json', 'w') as f:
-            json.dump(report, f, indent=2, default=str)
+            json.dump(report, f, indent=2)
         
         print("Statistical analysis completed!")
         print(f"Analyzed {report['dataset_overview']['total_rows']} rows")
@@ -645,7 +528,7 @@ if __name__ == "__main__":
         
         # Display key insights
         for insight in report['key_insights']:
-            print(f"- {insight}")
+            print(insight)
             
     except FileNotFoundError:
         print("Cleaned data file not found. Run data cleaning first.")

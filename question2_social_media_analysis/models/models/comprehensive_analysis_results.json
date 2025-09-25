@@ -1,0 +1,954 @@
+{
+  "analysis_timestamp": "2025-09-25T09:52:55.731426",
+  "dataset_info": {
+    "total_rows": 200,
+    "total_columns": 13,
+    "columns": [
+      "title",
+      "price",
+      "rating",
+      "in_stock",
+      "category",
+      "url",
+      "source",
+      "scraped_at",
+      "price_category",
+      "rating_category",
+      "title_length",
+      "title_word_count",
+      "value_score"
+    ]
+  },
+  "analyses_completed": [
+    "price_prediction",
+    "rating_prediction",
+    "category_pricing_analysis",
+    "recommendation_system",
+    "stock_availability_analysis"
+  ],
+  "models_created": [
+    "linear_regression",
+    "ridge_regression",
+    "lasso_regression",
+    "random_forest",
+    "gradient_boosting"
+  ],
+  "key_findings": [
+    "Best price prediction model: gradient_boosting (R\u00b2 = 0.955)",
+    "Most expensive category: History (avg: $54.23)",
+    "Least expensive category: Default (avg: $18.17)"
+  ],
+  "visualizations": [
+    "models\\model_comparison.png"
+  ],
+  "detailed_results": {
+    "price_prediction": {
+      "feature_names": [
+        "rating",
+        "in_stock",
+        "title_length",
+        "title_word_count",
+        "value_score",
+        "title_encoded",
+        "category_encoded",
+        "price_category_encoded",
+        "rating_category_encoded"
+      ],
+      "data_shape": {
+        "total_samples": 200,
+        "features": 9,
+        "train_samples": 160,
+        "test_samples": 40
+      },
+      "model_performance": {
+        "linear_regression": {
+          "train_mse": 44.89869839570626,
+          "test_mse": 54.586390283337515,
+          "train_rmse": 6.700649102565084,
+          "test_rmse": 7.388260301541731,
+          "train_r2": 0.7630209815741912,
+          "test_r2": 0.7634350979042712,
+          "test_mae": 6.1082498211331915,
+          "cv_rmse_mean": 7.139696130457178,
+          "cv_rmse_std": 0.7857015461464589,
+          "feature_importance": {
+            "rating": 10.996337479779204,
+            "in_stock": 5.329070518200751e-15,
+            "title_length": 3.9974660963177384,
+            "title_word_count": 3.3698346424961265,
+            "value_score": 15.676904640215831,
+            "title_encoded": 0.004943249197585375,
+            "category_encoded": 0.10185059011629516,
+            "price_category_encoded": 4.064726203764227,
+            "rating_category_encoded": 0.03801628527393852
+          }
+        },
+        "ridge_regression": {
+          "train_mse": 44.990966146798804,
+          "test_mse": 55.47631260506713,
+          "train_rmse": 6.707530555040268,
+          "test_rmse": 7.448242249354349,
+          "train_r2": 0.762533984804406,
+          "test_r2": 0.759578378567821,
+          "test_mae": 6.187312488975216,
+          "cv_rmse_mean": 7.119199123150725,
+          "cv_rmse_std": 0.8168719986699485,
+          "feature_importance": {
+            "rating": 10.494271729806968,
+            "in_stock": 0.0,
+            "title_length": 3.212663061219995,
+            "title_word_count": 2.5654759689821898,
+            "value_score": 15.36997399987655,
+            "title_encoded": 0.004935254445628976,
+            "category_encoded": 0.0975079781500295,
+            "price_category_encoded": 4.0064184952269875,
+            "rating_category_encoded": 0.1877541172200432
+          }
+        },
+        "lasso_regression": {
+          "train_mse": 54.1507434418245,
+          "test_mse": 76.68319133071297,
+          "train_rmse": 7.358718872319047,
+          "test_rmse": 8.756893931681082,
+          "train_r2": 0.7141879277930565,
+          "test_r2": 0.6676726276389162,
+          "test_mae": 7.388531665148113,
+          "cv_rmse_mean": 7.589954955124185,
+          "cv_rmse_std": 0.8584619374151468,
+          "feature_importance": {
+            "rating": 7.213591890512135,
+            "in_stock": 0.0,
+            "title_length": 0.0,
+            "title_word_count": 0.0,
+            "value_score": 12.475575478867508,
+            "title_encoded": 0.0022276403876554758,
+            "category_encoded": 0.0,
+            "price_category_encoded": 2.1346213972223294,
+            "rating_category_encoded": 0.5625994229805762
+          }
+        },
+        "random_forest": {
+          "train_mse": 2.1515001598779087,
+          "test_mse": 15.275741970197037,
+          "train_rmse": 1.4667992909317582,
+          "test_rmse": 3.9084193697960607,
+          "train_r2": 0.9886442054168858,
+          "test_r2": 0.9337984361145353,
+          "test_mae": 3.1796679250000013,
+          "cv_rmse_mean": 4.34228074867116,
+          "cv_rmse_std": 0.6246636176661536,
+          "feature_importance": {
+            "rating": 0.015432943156316539,
+            "in_stock": 0.0,
+            "title_length": 0.017231012652369985,
+            "title_word_count": 0.011080312675474728,
+            "value_score": 0.10482285734287736,
+            "title_encoded": 0.0228510252064985,
+            "category_encoded": 0.0016556472119512906,
+            "price_category_encoded": 0.8222794709483247,
+            "rating_category_encoded": 0.004646730806186866
+          }
+        },
+        "gradient_boosting": {
+          "train_mse": 1.7559699365479475,
+          "test_mse": 10.441306426136526,
+          "train_rmse": 1.325130158342171,
+          "test_rmse": 3.2313010423259123,
+          "train_r2": 0.9907318464272417,
+          "test_r2": 0.9547497715157679,
+          "test_mae": 2.6123732838090095,
+          "cv_rmse_mean": 3.8969434133467136,
+          "cv_rmse_std": 0.45247366297137204,
+          "feature_importance": {
+            "rating": 0.02846015382060478,
+            "in_stock": 0.0,
+            "title_length": 0.01266827879546042,
+            "title_word_count": 0.0035003774246742717,
+            "value_score": 0.10290848063844,
+            "title_encoded": 0.009819757120983433,
+            "category_encoded": 0.00043979706616516045,
+            "price_category_encoded": 0.8378463182057744,
+            "rating_category_encoded": 0.0043568369278974665
+          }
+        }
+      },
+      "best_model": "gradient_boosting",
+      "predictions": {
+        "y_test_actual": [
+          19.92,
+          57.25,
+          17.66,
+          23.15,
+          21.87,
+          29.14,
+          49.05,
+          29.06,
+          20.47,
+          31.77,
+          37.13,
+          16.85,
+          55.99,
+          19.83,
+          57.36,
+          38.28,
+          56.13,
+          10.97,
+          18.97,
+          58.0803,
+          55.53,
+          23.88,
+          44.1,
+          46.91,
+          20.59,
+          38.16,
+          10.16,
+          56.06,
+          28.13,
+          35.07,
+          52.15,
+          51.33,
+          19.09,
+          39.25,
+          55.85,
+          33.97,
+          58.08,
+          42.15,
+          27.55,
+          25.02
+        ],
+        "y_test_predicted": [
+          18.314181700364745,
+          56.00370098848966,
+          15.83512502994043,
+          17.933269182081105,
+          19.91732440246376,
+          31.42026977984098,
+          40.696360750841244,
+          34.56941396719736,
+          15.807092614183668,
+          33.89820723192717,
+          37.17515909331268,
+          17.750129539896616,
+          53.862566153048284,
+          17.591859689434674,
+          58.87379839463046,
+          36.923085347559784,
+          53.296128834682,
+          10.45008152878631,
+          20.055175488322742,
+          55.702915872103254,
+          52.804852406051204,
+          21.91183319091117,
+          43.389035247273874,
+          43.4480328541047,
+          16.935253493194338,
+          42.18874618535535,
+          12.386291890432723,
+          53.51602043877359,
+          34.387600937140945,
+          36.92793051417579,
+          52.93196753527745,
+          55.16613845144363,
+          20.21341577364327,
+          41.14657157221552,
+          53.342888061262066,
+          36.09418036151507,
+          57.42294564851161,
+          41.793518684818764,
+          31.676497437383183,
+          32.891209317529665
+        ]
+      }
+    },
+    "rating_prediction": {
+      "feature_names": [
+        "price",
+        "in_stock",
+        "title_length",
+        "title_word_count",
+        "value_score",
+        "title_encoded",
+        "category_encoded",
+        "price_category_encoded",
+        "rating_category_encoded"
+      ],
+      "data_shape": {
+        "total_samples": 200,
+        "features": 9,
+        "train_samples": 160,
+        "test_samples": 40
+      },
+      "model_performance": {
+        "linear_regression": {
+          "train_mse": 0.26785299644844623,
+          "test_mse": 0.3263587188938092,
+          "train_rmse": 0.517545163679892,
+          "test_rmse": 0.5712781449467581,
+          "train_r2": 0.8731845775169643,
+          "test_r2": 0.8349639853887185,
+          "test_mae": 0.4757482727678436,
+          "feature_importance": {
+            "price": 0.6374407626222977,
+            "in_stock": 1.1379786002407855e-15,
+            "title_length": 0.2991062255400206,
+            "title_word_count": 0.26223790396964564,
+            "value_score": 0.9872198576788046,
+            "title_encoded": 0.00022089775573944093,
+            "category_encoded": 0.017669533725368825,
+            "price_category_encoded": 0.2039261517451303,
+            "rating_category_encoded": 0.5701344016063458
+          }
+        },
+        "ridge_regression": {
+          "train_mse": 0.26824755321639027,
+          "test_mse": 0.3327033273979812,
+          "train_rmse": 0.5179262044117774,
+          "test_rmse": 0.5768044100021958,
+          "train_r2": 0.8729977739945702,
+          "test_r2": 0.8317555866508313,
+          "test_mae": 0.4791794659915526,
+          "feature_importance": {
+            "price": 0.6135690059917064,
+            "in_stock": 0.0,
+            "title_length": 0.24112047819788085,
+            "title_word_count": 0.20344354923903155,
+            "value_score": 0.9581470460466563,
+            "title_encoded": 0.0002183426406735152,
+            "category_encoded": 0.017966657544845194,
+            "price_category_encoded": 0.19488089484461255,
+            "rating_category_encoded": 0.582283482321687
+          }
+        },
+        "random_forest": {
+          "train_mse": 0.0023318750000000006,
+          "test_mse": 0.0107625,
+          "train_rmse": 0.04828949161049431,
+          "test_rmse": 0.10374246960623214,
+          "train_r2": 0.9988959701133695,
+          "test_r2": 0.9945575221238938,
+          "test_mae": 0.045250000000000005,
+          "feature_importance": {
+            "price": 0.012789191772073539,
+            "in_stock": 0.0,
+            "title_length": 0.0006582491055008697,
+            "title_word_count": 0.0003489252199166195,
+            "value_score": 0.03637039651965609,
+            "title_encoded": 0.000745877189623646,
+            "category_encoded": 4.097293807680831e-05,
+            "price_category_encoded": 8.822205989043458e-05,
+            "rating_category_encoded": 0.9489581651952621
+          }
+        }
+      },
+      "best_model": "random_forest"
+    },
+    "category_pricing": {
+      "category_statistics": {
+        "Business": {
+          "price_count": 1,
+          "price_mean": 33.34,
+          "price_median": 33.34,
+          "price_std": NaN,
+          "price_min": 33.34,
+          "price_max": 33.34,
+          "rating_mean": 4.0,
+          "rating_std": NaN
+        },
+        "Default": {
+          "price_count": 3,
+          "price_mean": 18.17,
+          "price_median": 17.93,
+          "price_std": 4.31,
+          "price_min": 13.99,
+          "price_max": 22.6,
+          "rating_mean": 3.0,
+          "rating_std": 1.0
+        },
+        "Fiction": {
+          "price_count": 1,
+          "price_mean": 50.1,
+          "price_median": 50.1,
+          "price_std": NaN,
+          "price_min": 50.1,
+          "price_max": 50.1,
+          "rating_mean": 1.0,
+          "rating_std": NaN
+        },
+        "Historical Fiction": {
+          "price_count": 1,
+          "price_mean": 53.74,
+          "price_median": 53.74,
+          "price_std": NaN,
+          "price_min": 53.74,
+          "price_max": 53.74,
+          "rating_mean": 1.0,
+          "rating_std": NaN
+        },
+        "History": {
+          "price_count": 1,
+          "price_mean": 54.23,
+          "price_median": 54.23,
+          "price_std": NaN,
+          "price_min": 54.23,
+          "price_max": 54.23,
+          "rating_mean": 5.0,
+          "rating_std": NaN
+        },
+        "Music": {
+          "price_count": 2,
+          "price_mean": 46.14,
+          "price_median": 46.14,
+          "price_std": 15.72,
+          "price_min": 35.02,
+          "price_max": 57.25,
+          "rating_mean": 4.0,
+          "rating_std": 1.41
+        },
+        "Mystery": {
+          "price_count": 1,
+          "price_mean": 47.82,
+          "price_median": 47.82,
+          "price_std": NaN,
+          "price_min": 47.82,
+          "price_max": 47.82,
+          "rating_mean": 4.0,
+          "rating_std": NaN
+        },
+        "Poetry": {
+          "price_count": 4,
+          "price_mean": 37.12,
+          "price_median": 37.83,
+          "price_std": 17.19,
+          "price_min": 20.66,
+          "price_max": 52.15,
+          "rating_mean": 2.25,
+          "rating_std": 1.5
+        },
+        "Politics": {
+          "price_count": 1,
+          "price_mean": 51.33,
+          "price_median": 51.33,
+          "price_std": NaN,
+          "price_min": 51.33,
+          "price_max": 51.33,
+          "rating_mean": 2.0,
+          "rating_std": NaN
+        },
+        "Science Fiction": {
+          "price_count": 1,
+          "price_mean": 37.59,
+          "price_median": 37.59,
+          "price_std": NaN,
+          "price_min": 37.59,
+          "price_max": 37.59,
+          "rating_mean": 1.0,
+          "rating_std": NaN
+        },
+        "Sequential Art": {
+          "price_count": 1,
+          "price_mean": 52.29,
+          "price_median": 52.29,
+          "price_std": NaN,
+          "price_min": 52.29,
+          "price_max": 52.29,
+          "rating_mean": 5.0,
+          "rating_std": NaN
+        },
+        "Travel": {
+          "price_count": 1,
+          "price_mean": 45.17,
+          "price_median": 45.17,
+          "price_std": NaN,
+          "price_min": 45.17,
+          "price_max": 45.17,
+          "rating_mean": 2.0,
+          "rating_std": NaN
+        },
+        "Unknown": {
+          "price_count": 180,
+          "price_mean": 34.43,
+          "price_median": 35.34,
+          "price_std": 13.98,
+          "price_min": 10.16,
+          "price_max": 58.08,
+          "rating_mean": 2.87,
+          "rating_std": 1.44
+        },
+        "Young Adult": {
+          "price_count": 2,
+          "price_mean": 20.06,
+          "price_median": 20.06,
+          "price_std": 3.67,
+          "price_min": 17.46,
+          "price_max": 22.65,
+          "rating_mean": 3.0,
+          "rating_std": 2.83
+        }
+      },
+      "price_trends": {
+        "Poetry": {
+          "is_normal": "False",
+          "normality_p_value": NaN,
+          "percentiles": {
+            "25th": 23.075,
+            "50th": 37.825,
+            "75th": 51.865,
+            "90th": 52.036,
+            "95th": 52.092999999999996
+          },
+          "coefficient_variation": 0.4632240704829578
+        },
+        "Young Adult": {
+          "is_normal": "False",
+          "normality_p_value": NaN,
+          "percentiles": {
+            "25th": 18.7575,
+            "50th": 20.055,
+            "75th": 21.3525,
+            "90th": 22.131,
+            "95th": 22.3905
+          },
+          "coefficient_variation": 0.1829909845105051
+        },
+        "Default": {
+          "is_normal": "False",
+          "normality_p_value": NaN,
+          "percentiles": {
+            "25th": 15.96,
+            "50th": 17.93,
+            "75th": 20.265,
+            "90th": 21.666,
+            "95th": 22.133
+          },
+          "coefficient_variation": 0.23716918614813814
+        },
+        "Music": {
+          "is_normal": "False",
+          "normality_p_value": NaN,
+          "percentiles": {
+            "25th": 40.5775,
+            "50th": 46.135000000000005,
+            "75th": 51.6925,
+            "90th": 55.027,
+            "95th": 56.1385
+          },
+          "coefficient_variation": 0.34071710731065236
+        },
+        "Unknown": {
+          "is_normal": "False",
+          "normality_p_value": 1.3394874265495256e-15,
+          "percentiles": {
+            "25th": 21.9375,
+            "50th": 35.34,
+            "75th": 44.4775,
+            "90th": 54.594,
+            "95th": 56.4005
+          },
+          "coefficient_variation": 0.40621827750756345
+        }
+      },
+      "category_clusters": {
+        "Poetry": {
+          "cluster": 2,
+          "features": [
+            37.115,
+            17.19256137597498,
+            37.825,
+            4.0,
+            2.25
+          ]
+        },
+        "Default": {
+          "cluster": 1,
+          "features": [
+            18.173333333333336,
+            4.310154676265498,
+            17.93,
+            3.0,
+            3.0
+          ]
+        },
+        "Unknown": {
+          "cluster": 0,
+          "features": [
+            34.42605888888889,
+            13.984494343218389,
+            35.34,
+            180.0,
+            2.8666666666666667
+          ]
+        }
+      },
+      "pricing_insights": [
+        "Most expensive category: History (avg: $54.23)",
+        "Least expensive category: Default (avg: $18.17)"
+      ],
+      "cluster_characteristics": {
+        "cluster_0": {
+          "categories": [
+            "Unknown"
+          ],
+          "avg_price": 34.42605888888889,
+          "avg_rating": 2.8666666666666667,
+          "total_items": 180
+        },
+        "cluster_1": {
+          "categories": [
+            "Default"
+          ],
+          "avg_price": 18.173333333333336,
+          "avg_rating": 3.0,
+          "total_items": 3
+        },
+        "cluster_2": {
+          "categories": [
+            "Poetry"
+          ],
+          "avg_price": 37.115,
+          "avg_rating": 2.25,
+          "total_items": 4
+        }
+      }
+    },
+    "recommendation_system": {
+      "system_info": {
+        "total_items": 200,
+        "features_used": [
+          "price",
+          "rating",
+          "category"
+        ],
+        "similarity_metric": "cosine",
+        "neighbors_per_item": 5
+      },
+      "sample_recommendations": {
+        "item_0": {
+          "original_item": {
+            "index": 0,
+            "title": "A Light in the Attic",
+            "price": 51.77,
+            "rating": 3.0
+          },
+          "recommendations": [
+            {
+              "index": 15,
+              "similarity_score": 0.9990989195401597,
+              "title": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+              "price": 57.25,
+              "rating": 3.0
+            },
+            {
+              "index": 3,
+              "similarity_score": 0.9537719232852594,
+              "title": "Sharp Objects",
+              "price": 47.82,
+              "rating": 4.0
+            },
+            {
+              "index": 18,
+              "similarity_score": 0.938640889031442,
+              "title": "Libertarianism for Beginners",
+              "price": 51.33,
+              "rating": 2.0
+            },
+            {
+              "index": 4,
+              "similarity_score": 0.9312966121128277,
+              "title": "Sapiens: A Brief History of Humankind",
+              "price": 54.23,
+              "rating": 5.0
+            },
+            {
+              "index": 1,
+              "similarity_score": 0.9217675372437467,
+              "title": "Tipping the Velvet",
+              "price": 53.74,
+              "rating": 1.0
+            }
+          ]
+        },
+        "item_1": {
+          "original_item": {
+            "index": 1,
+            "title": "Tipping the Velvet",
+            "price": 53.74,
+            "rating": 1.0
+          },
+          "recommendations": [
+            {
+              "index": 2,
+              "similarity_score": 0.9961002968243875,
+              "title": "Soumission",
+              "price": 50.1,
+              "rating": 1.0
+            },
+            {
+              "index": 9,
+              "similarity_score": 0.9626865668281966,
+              "title": "The Black Maria",
+              "price": 52.15,
+              "rating": 1.0
+            },
+            {
+              "index": 18,
+              "similarity_score": 0.9566897164368192,
+              "title": "Libertarianism for Beginners",
+              "price": 51.33,
+              "rating": 2.0
+            },
+            {
+              "index": 15,
+              "similarity_score": 0.9326952777080324,
+              "title": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+              "price": 57.25,
+              "rating": 3.0
+            },
+            {
+              "index": 0,
+              "similarity_score": 0.9217675372437467,
+              "title": "A Light in the Attic",
+              "price": 51.77,
+              "rating": 3.0
+            }
+          ]
+        },
+        "item_2": {
+          "original_item": {
+            "index": 2,
+            "title": "Soumission",
+            "price": 50.1,
+            "rating": 1.0
+          },
+          "recommendations": [
+            {
+              "index": 1,
+              "similarity_score": 0.9961002968243875,
+              "title": "Tipping the Velvet",
+              "price": 53.74,
+              "rating": 1.0
+            },
+            {
+              "index": 9,
+              "similarity_score": 0.9386934775375048,
+              "title": "The Black Maria",
+              "price": 52.15,
+              "rating": 1.0
+            },
+            {
+              "index": 18,
+              "similarity_score": 0.9280222010329355,
+              "title": "Libertarianism for Beginners",
+              "price": 51.33,
+              "rating": 2.0
+            },
+            {
+              "index": 15,
+              "similarity_score": 0.9226423547011033,
+              "title": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+              "price": 57.25,
+              "rating": 3.0
+            },
+            {
+              "index": 0,
+              "similarity_score": 0.908540272404723,
+              "title": "A Light in the Attic",
+              "price": 51.77,
+              "rating": 3.0
+            }
+          ]
+        },
+        "item_3": {
+          "original_item": {
+            "index": 3,
+            "title": "Sharp Objects",
+            "price": 47.82,
+            "rating": 4.0
+          },
+          "recommendations": [
+            {
+              "index": 4,
+              "similarity_score": 0.9951986690054218,
+              "title": "Sapiens: A Brief History of Humankind",
+              "price": 54.23,
+              "rating": 5.0
+            },
+            {
+              "index": 15,
+              "similarity_score": 0.9570755601251448,
+              "title": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+              "price": 57.25,
+              "rating": 3.0
+            },
+            {
+              "index": 0,
+              "similarity_score": 0.9537719232852594,
+              "title": "A Light in the Attic",
+              "price": 51.77,
+              "rating": 3.0
+            },
+            {
+              "index": 14,
+              "similarity_score": 0.9319931468634038,
+              "title": "Rip it Up and Start Again",
+              "price": 35.02,
+              "rating": 5.0
+            },
+            {
+              "index": 6,
+              "similarity_score": 0.923844211403522,
+              "title": "The Dirty Little Secrets of Getting Your Dream Job",
+              "price": 33.34,
+              "rating": 4.0
+            }
+          ]
+        },
+        "item_4": {
+          "original_item": {
+            "index": 4,
+            "title": "Sapiens: A Brief History of Humankind",
+            "price": 54.23,
+            "rating": 5.0
+          },
+          "recommendations": [
+            {
+              "index": 3,
+              "similarity_score": 0.9951986690054218,
+              "title": "Sharp Objects",
+              "price": 47.82,
+              "rating": 4.0
+            },
+            {
+              "index": 14,
+              "similarity_score": 0.9373503234344213,
+              "title": "Rip it Up and Start Again",
+              "price": 35.02,
+              "rating": 5.0
+            },
+            {
+              "index": 15,
+              "similarity_score": 0.9322710085115373,
+              "title": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+              "price": 57.25,
+              "rating": 3.0
+            },
+            {
+              "index": 0,
+              "similarity_score": 0.9312966121128277,
+              "title": "A Light in the Attic",
+              "price": 51.77,
+              "rating": 3.0
+            },
+            {
+              "index": 6,
+              "similarity_score": 0.898502999628427,
+              "title": "The Dirty Little Secrets of Getting Your Dream Job",
+              "price": 33.34,
+              "rating": 4.0
+            }
+          ]
+        }
+      },
+      "model_saved": true,
+      "model_path": "models\\recommendation_model.joblib"
+    },
+    "stock_availability": {
+      "availability_statistics": {
+        "total_items": 200,
+        "in_stock_count": 200,
+        "out_of_stock_count": 0,
+        "in_stock_percentage": 100.0,
+        "out_of_stock_percentage": 0.0
+      },
+      "price_availability_relationship": {
+        "significant_difference": false
+      },
+      "category_availability": {
+        "Business": {
+          "count": 1,
+          "sum": 1,
+          "mean": 1.0,
+          "availability_percentage": 100.0
+        },
+        "Default": {
+          "count": 3,
+          "sum": 3,
+          "mean": 1.0,
+          "availability_percentage": 100.0
+        },
+        "Fiction": {
+          "count": 1,
+          "sum": 1,
+          "mean": 1.0,
+          "availability_percentage": 100.0
+        },
+        "Historical Fiction": {
+          "count": 1,
+          "sum": 1,
+          "mean": 1.0,
+          "availability_percentage": 100.0
+        },
+        "History": {
+          "count": 1,
+          "sum": 1,
+          "mean": 1.0,
+          "availability_percentage": 100.0
+        },
+        "Music": {
+          "count": 2,
+          "sum": 2,
+          "mean": 1.0,
+          "availability_percentage": 100.0
+        },
+        "Mystery": {
+          "count": 1,
+          "sum": 1,
+          "mean": 1.0,
+          "availability_percentage": 100.0
+        },
+        "Poetry": {
+          "count": 4,
+          "sum": 4,
+          "mean": 1.0,
+          "availability_percentage": 100.0
+        },
+        "Politics": {
+          "count": 1,
+          "sum": 1,
+          "mean": 1.0,
+          "availability_percentage": 100.0
+        },
+        "Science Fiction": {
+          "count": 1,
+          "sum": 1,
+          "mean": 1.0,
+          "availability_percentage": 100.0
+        },
+        "Sequential Art": {
+          "count": 1,
+          "sum": 1,
+          "mean": 1.0,
+          "availability_percentage": 100.0
+        },
+        "Travel": {
+          "count": 1,
+          "sum": 1,
+          "mean": 1.0,
+          "availability_percentage": 100.0
+        },
+        "Unknown": {
+          "count": 180,
+          "sum": 180,
+          "mean": 1.0,
+          "availability_percentage": 100.0
+        },
+        "Young Adult": {
+          "count": 2,
+          "sum": 2,
+          "mean": 1.0,
+          "availability_percentage": 100.0
+        }
+      },
+      "insights": []
+    }
+  }
+}

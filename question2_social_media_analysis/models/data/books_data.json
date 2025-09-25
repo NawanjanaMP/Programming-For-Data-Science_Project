@@ -1,0 +1,2002 @@
+[
+  {
+    "title": "A Light in the Attic",
+    "price": 51.77,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Poetry",
+    "url": "http://books.toscrape.com/catalogue/a-light-in-the-attic_1000/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:46:17.995852"
+  },
+  {
+    "title": "Tipping the Velvet",
+    "price": 53.74,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Historical Fiction",
+    "url": "http://books.toscrape.com/catalogue/tipping-the-velvet_999/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:46:19.772346"
+  },
+  {
+    "title": "Soumission",
+    "price": 50.1,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Fiction",
+    "url": "http://books.toscrape.com/catalogue/soumission_998/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:46:21.603903"
+  },
+  {
+    "title": "Sharp Objects",
+    "price": 47.82,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Mystery",
+    "url": "http://books.toscrape.com/catalogue/sharp-objects_997/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:46:24.075692"
+  },
+  {
+    "title": "Sapiens: A Brief History of Humankind",
+    "price": 54.23,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "History",
+    "url": "http://books.toscrape.com/catalogue/sapiens-a-brief-history-of-humankind_996/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:46:25.579978"
+  },
+  {
+    "title": "The Requiem Red",
+    "price": 22.65,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Young Adult",
+    "url": "http://books.toscrape.com/catalogue/the-requiem-red_995/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:46:27.673986"
+  },
+  {
+    "title": "The Dirty Little Secrets of Getting Your Dream Job",
+    "price": 33.34,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Business",
+    "url": "http://books.toscrape.com/catalogue/the-dirty-little-secrets-of-getting-your-dream-job_994/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:46:30.436732"
+  },
+  {
+    "title": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
+    "price": 17.93,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Default",
+    "url": "http://books.toscrape.com/catalogue/the-coming-woman-a-novel-based-on-the-life-of-the-infamous-feminist-victoria-woodhull_993/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:46:33.669240"
+  },
+  {
+    "title": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
+    "price": 22.6,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Default",
+    "url": "http://books.toscrape.com/catalogue/the-boys-in-the-boat-nine-americans-and-their-epic-quest-for-gold-at-the-1936-berlin-olympics_992/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:46:36.559507"
+  },
+  {
+    "title": "The Black Maria",
+    "price": 52.15,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Poetry",
+    "url": "http://books.toscrape.com/catalogue/the-black-maria_991/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:46:38.693411"
+  },
+  {
+    "title": "Starving Hearts (Triangular Trade Trilogy, #1)",
+    "price": 13.99,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Default",
+    "url": "http://books.toscrape.com/catalogue/starving-hearts-triangular-trade-trilogy-1_990/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:46:41.495705"
+  },
+  {
+    "title": "Shakespeare's Sonnets",
+    "price": 20.66,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Poetry",
+    "url": "http://books.toscrape.com/catalogue/shakespeares-sonnets_989/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:46:44.747762"
+  },
+  {
+    "title": "Set Me Free",
+    "price": 17.46,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Young Adult",
+    "url": "http://books.toscrape.com/catalogue/set-me-free_988/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:46:47.174041"
+  },
+  {
+    "title": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
+    "price": 52.29,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Sequential Art",
+    "url": "http://books.toscrape.com/catalogue/scott-pilgrims-precious-little-life-scott-pilgrim-1_987/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:46:50.124272"
+  },
+  {
+    "title": "Rip it Up and Start Again",
+    "price": 35.02,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Music",
+    "url": "http://books.toscrape.com/catalogue/rip-it-up-and-start-again_986/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:46:51.733884"
+  },
+  {
+    "title": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
+    "price": 57.25,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Music",
+    "url": "http://books.toscrape.com/catalogue/our-band-could-be-your-life-scenes-from-the-american-indie-underground-1981-1991_985/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:46:53.509972"
+  },
+  {
+    "title": "Olio",
+    "price": 23.88,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Poetry",
+    "url": "http://books.toscrape.com/catalogue/olio_984/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:46:54.889463"
+  },
+  {
+    "title": "Mesaerion: The Best Science Fiction Stories 1800-1849",
+    "price": 37.59,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Science Fiction",
+    "url": "http://books.toscrape.com/catalogue/mesaerion-the-best-science-fiction-stories-1800-1849_983/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:46:57.793127"
+  },
+  {
+    "title": "Libertarianism for Beginners",
+    "price": 51.33,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Politics",
+    "url": "http://books.toscrape.com/catalogue/libertarianism-for-beginners_982/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:47:00.653277"
+  },
+  {
+    "title": "It's Only the Himalayas",
+    "price": 45.17,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Travel",
+    "url": "http://books.toscrape.com/catalogue/its-only-the-himalayas_981/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:47:03.895306"
+  },
+  {
+    "title": "In Her Wake",
+    "price": 12.84,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/in-her-wake_980/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:47:12.870565"
+  },
+  {
+    "title": "How Music Works",
+    "price": 37.32,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/how-music-works_979/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:47:19.594439"
+  },
+  {
+    "title": "Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More",
+    "price": 30.52,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/foolproof-preserving-a-guide-to-small-batch-jams-jellies-pickles-condiments-and-more-a-foolproof-guide-to-making-small-batch-jams-jellies-pickles-condiments-and-more_978/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:47:27.344462"
+  },
+  {
+    "title": "Chase Me (Paris Nights #2)",
+    "price": 25.27,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/chase-me-paris-nights-2_977/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:47:36.104809"
+  },
+  {
+    "title": "Black Dust",
+    "price": 34.53,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/black-dust_976/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:47:42.279362"
+  },
+  {
+    "title": "Birdsong: A Story in Pictures",
+    "price": 54.64,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/birdsong-a-story-in-pictures_975/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:47:50.099586"
+  },
+  {
+    "title": "America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana",
+    "price": 22.5,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/americas-cradle-of-quarterbacks-western-pennsylvanias-football-factory-from-johnny-unitas-to-joe-montana_974/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:47:57.709131"
+  },
+  {
+    "title": "Aladdin and His Wonderful Lamp",
+    "price": 53.13,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/aladdin-and-his-wonderful-lamp_973/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:48:04.640567"
+  },
+  {
+    "title": "Worlds Elsewhere: Journeys Around Shakespeare’s Globe",
+    "price": 40.3,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/worlds-elsewhere-journeys-around-shakespeares-globe_972/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:48:10.852165"
+  },
+  {
+    "title": "Wall and Piece",
+    "price": 44.18,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/wall-and-piece_971/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:48:18.146264"
+  },
+  {
+    "title": "The Four Agreements: A Practical Guide to Personal Freedom",
+    "price": 17.66,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-four-agreements-a-practical-guide-to-personal-freedom_970/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:48:24.481279"
+  },
+  {
+    "title": "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate",
+    "price": 31.05,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-five-love-languages-how-to-express-heartfelt-commitment-to-your-mate_969/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:48:30.059308"
+  },
+  {
+    "title": "The Elephant Tree",
+    "price": 23.82,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-elephant-tree_968/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:48:36.852954"
+  },
+  {
+    "title": "The Bear and the Piano",
+    "price": 36.89,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-bear-and-the-piano_967/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:48:43.789355"
+  },
+  {
+    "title": "Sophie's World",
+    "price": 15.94,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/sophies-world_966/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:48:51.887253"
+  },
+  {
+    "title": "Penny Maybe",
+    "price": 33.29,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/penny-maybe_965/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:49:00.090959"
+  },
+  {
+    "title": "Maude (1883-1993):She Grew Up with the country",
+    "price": 18.02,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/maude-1883-1993she-grew-up-with-the-country_964/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:49:06.439571"
+  },
+  {
+    "title": "In a Dark, Dark Wood",
+    "price": 19.63,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/in-a-dark-dark-wood_963/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:49:13.381723"
+  },
+  {
+    "title": "Behind Closed Doors",
+    "price": 52.22,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/behind-closed-doors_962/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:49:20.797130"
+  },
+  {
+    "title": "You can't bury them all: Poems",
+    "price": 33.63,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/you-cant-bury-them-all-poems_961/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:49:28.055818"
+  },
+  {
+    "title": "Slow States of Collapse: Poems",
+    "price": 57.31,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/slow-states-of-collapse-poems_960/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:49:38.930794"
+  },
+  {
+    "title": "Reasons to Stay Alive",
+    "price": 26.41,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/reasons-to-stay-alive_959/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:49:45.507619"
+  },
+  {
+    "title": "Private Paris (Private #10)",
+    "price": 47.61,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/private-paris-private-10_958/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:49:50.887941"
+  },
+  {
+    "title": "#HigherSelfie: Wake Up Your Life. Free Your Soul. Find Your Tribe.",
+    "price": 23.11,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/higherselfie-wake-up-your-life-free-your-soul-find-your-tribe_957/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:49:58.819243"
+  },
+  {
+    "title": "Without Borders (Wanderlove #1)",
+    "price": 45.07,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/without-borders-wanderlove-1_956/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:50:05.315935"
+  },
+  {
+    "title": "When We Collided",
+    "price": 31.77,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/when-we-collided_955/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:50:11.729352"
+  },
+  {
+    "title": "We Love You, Charlie Freeman",
+    "price": 50.27,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/we-love-you-charlie-freeman_954/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:50:18.914640"
+  },
+  {
+    "title": "Untitled Collection: Sabbath Poems 2014",
+    "price": 14.27,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/untitled-collection-sabbath-poems-2014_953/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:50:25.749774"
+  },
+  {
+    "title": "Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness",
+    "price": 44.18,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/unseen-city-the-majesty-of-pigeons-the-discreet-charm-of-snails-other-wonders-of-the-urban-wilderness_952/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:50:34.600786"
+  },
+  {
+    "title": "Unicorn Tracks",
+    "price": 18.78,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/unicorn-tracks_951/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:50:42.384732"
+  },
+  {
+    "title": "Unbound: How Eight Technologies Made Us Human, Transformed Society, and Brought Our World to the Brink",
+    "price": 25.52,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/unbound-how-eight-technologies-made-us-human-transformed-society-and-brought-our-world-to-the-brink_950/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:50:49.992964"
+  },
+  {
+    "title": "Tsubasa: WoRLD CHRoNiCLE 2 (Tsubasa WoRLD CHRoNiCLE #2)",
+    "price": 16.28,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/tsubasa-world-chronicle-2-tsubasa-world-chronicle-2_949/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:50:59.231711"
+  },
+  {
+    "title": "Throwing Rocks at the Google Bus: How Growth Became the Enemy of Prosperity",
+    "price": 31.12,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/throwing-rocks-at-the-google-bus-how-growth-became-the-enemy-of-prosperity_948/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:51:08.095411"
+  },
+  {
+    "title": "This One Summer",
+    "price": 19.49,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/this-one-summer_947/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:51:14.724261"
+  },
+  {
+    "title": "Thirst",
+    "price": 17.27,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/thirst_946/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:51:21.873289"
+  },
+  {
+    "title": "The Torch Is Passed: A Harding Family Story",
+    "price": 19.09,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-torch-is-passed-a-harding-family-story_945/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:51:27.335382"
+  },
+  {
+    "title": "The Secret of Dreadwillow Carse",
+    "price": 56.13,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-secret-of-dreadwillow-carse_944/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:51:33.312088"
+  },
+  {
+    "title": "The Pioneer Woman Cooks: Dinnertime: Comfort Classics, Freezer Food, 16-Minute Meals, and Other Delicious Ways to Solve Supper!",
+    "price": 56.41,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-pioneer-woman-cooks-dinnertime-comfort-classics-freezer-food-16-minute-meals-and-other-delicious-ways-to-solve-supper_943/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:51:40.625099"
+  },
+  {
+    "title": "The Past Never Ends",
+    "price": 56.5,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-past-never-ends_942/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:51:49.526820"
+  },
+  {
+    "title": "The Natural History of Us (The Fine Art of Pretending #2)",
+    "price": 45.22,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-natural-history-of-us-the-fine-art-of-pretending-2_941/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:51:55.338853"
+  },
+  {
+    "title": "The Nameless City (The Nameless City #1)",
+    "price": 38.16,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-nameless-city-the-nameless-city-1_940/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:52:05.653210"
+  },
+  {
+    "title": "The Murder That Never Was (Forensic Instincts #5)",
+    "price": 54.11,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-murder-that-never-was-forensic-instincts-5_939/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:52:12.533415"
+  },
+  {
+    "title": "The Most Perfect Thing: Inside (and Outside) a Bird's Egg",
+    "price": 42.96,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-most-perfect-thing-inside-and-outside-a-birds-egg_938/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:52:19.684193"
+  },
+  {
+    "title": "The Mindfulness and Acceptance Workbook for Anxiety: A Guide to Breaking Free from Anxiety, Phobias, and Worry Using Acceptance and Commitment Therapy",
+    "price": 23.89,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-mindfulness-and-acceptance-workbook-for-anxiety-a-guide-to-breaking-free-from-anxiety-phobias-and-worry-using-acceptance-and-commitment-therapy_937/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:52:26.728319"
+  },
+  {
+    "title": "The Life-Changing Magic of Tidying Up: The Japanese Art of Decluttering and Organizing",
+    "price": 16.77,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-life-changing-magic-of-tidying-up-the-japanese-art-of-decluttering-and-organizing_936/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:52:34.633986"
+  },
+  {
+    "title": "The Inefficiency Assassin: Time Management Tactics for Working Smarter, Not Longer",
+    "price": 20.59,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-inefficiency-assassin-time-management-tactics-for-working-smarter-not-longer_935/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:52:40.124441"
+  },
+  {
+    "title": "The Gutsy Girl: Escapades for Your Life of Epic Adventure",
+    "price": 37.13,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-gutsy-girl-escapades-for-your-life-of-epic-adventure_934/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:52:44.761768"
+  },
+  {
+    "title": "The Electric Pencil: Drawings from Inside State Hospital No. 3",
+    "price": 56.06,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-electric-pencil-drawings-from-inside-state-hospital-no-3_933/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:52:49.466884"
+  },
+  {
+    "title": "The Death of Humanity: and the Case for Life",
+    "price": 58.11,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-death-of-humanity-and-the-case-for-life_932/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:52:55.792163"
+  },
+  {
+    "title": "The Bulletproof Diet: Lose up to a Pound a Day, Reclaim Energy and Focus, Upgrade Your Life",
+    "price": 49.05,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-bulletproof-diet-lose-up-to-a-pound-a-day-reclaim-energy-and-focus-upgrade-your-life_931/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:53:03.399263"
+  },
+  {
+    "title": "The Art Forger",
+    "price": 40.76,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-art-forger_930/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:53:10.089096"
+  },
+  {
+    "title": "The Age of Genius: The Seventeenth Century and the Birth of the Modern Mind",
+    "price": 19.73,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-age-of-genius-the-seventeenth-century-and-the-birth-of-the-modern-mind_929/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:53:18.002093"
+  },
+  {
+    "title": "The Activist's Tao Te Ching: Ancient Advice for a Modern Revolution",
+    "price": 32.24,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-activists-tao-te-ching-ancient-advice-for-a-modern-revolution_928/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:53:23.980297"
+  },
+  {
+    "title": "Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up",
+    "price": 41.83,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/spark-joy-an-illustrated-master-class-on-the-art-of-organizing-and-tidying-up_927/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:53:29.434071"
+  },
+  {
+    "title": "Soul Reader",
+    "price": 39.58,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/soul-reader_926/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:53:36.424521"
+  },
+  {
+    "title": "Security",
+    "price": 39.25,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/security_925/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:53:44.263649"
+  },
+  {
+    "title": "Saga, Volume 6 (Saga (Collected Editions) #6)",
+    "price": 25.02,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/saga-volume-6-saga-collected-editions-6_924/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:53:51.127662"
+  },
+  {
+    "title": "Saga, Volume 5 (Saga (Collected Editions) #5)",
+    "price": 51.04,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/saga-volume-5-saga-collected-editions-5_923/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:53:57.276641"
+  },
+  {
+    "title": "Reskilling America: Learning to Labor in the Twenty-First Century",
+    "price": 19.83,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/reskilling-america-learning-to-labor-in-the-twenty-first-century_922/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:54:01.882278"
+  },
+  {
+    "title": "Rat Queens, Vol. 3: Demons (Rat Queens (Collected Editions) #11-15)",
+    "price": 50.4,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/rat-queens-vol-3-demons-rat-queens-collected-editions-11-15_921/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:54:08.989048"
+  },
+  {
+    "title": "Princess Jellyfish 2-in-1 Omnibus, Vol. 01 (Princess Jellyfish 2-in-1 Omnibus #1)",
+    "price": 13.61,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/princess-jellyfish-2-in-1-omnibus-vol-01-princess-jellyfish-2-in-1-omnibus-1_920/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:54:18.877503"
+  },
+  {
+    "title": "Princess Between Worlds (Wide-Awake Princess #5)",
+    "price": 13.34,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/princess-between-worlds-wide-awake-princess-5_919/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:54:24.749589"
+  },
+  {
+    "title": "Pop Gun War, Volume 1: Gift",
+    "price": 18.97,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/pop-gun-war-volume-1-gift_918/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:54:31.815114"
+  },
+  {
+    "title": "Political Suicide: Missteps, Peccadilloes, Bad Calls, Backroom Hijinx, Sordid Pasts, Rotten Breaks, and Just Plain Dumb Mistakes in the Annals of American Politics",
+    "price": 36.28,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/political-suicide-missteps-peccadilloes-bad-calls-backroom-hijinx-sordid-pasts-rotten-breaks-and-just-plain-dumb-mistakes-in-the-annals-of-american-politics_917/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:54:39.988652"
+  },
+  {
+    "title": "Patience",
+    "price": 10.16,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/patience_916/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:54:46.720199"
+  },
+  {
+    "title": "Outcast, Vol. 1: A Darkness Surrounds Him (Outcast #1)",
+    "price": 15.44,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/outcast-vol-1-a-darkness-surrounds-him-outcast-1_915/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:54:53.915378"
+  },
+  {
+    "title": "orange: The Complete Collection 1 (orange: The Complete Collection #1)",
+    "price": 48.41,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/orange-the-complete-collection-1-orange-the-complete-collection-1_914/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:55:00.945646"
+  },
+  {
+    "title": "Online Marketing for Busy Authors: A Step-By-Step Guide",
+    "price": 46.35,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/online-marketing-for-busy-authors-a-step-by-step-guide_913/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:55:06.010885"
+  },
+  {
+    "title": "On a Midnight Clear",
+    "price": 14.07,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/on-a-midnight-clear_912/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:55:14.000277"
+  },
+  {
+    "title": "Obsidian (Lux #1)",
+    "price": 14.86,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/obsidian-lux-1_911/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:55:21.781084"
+  },
+  {
+    "title": "My Paris Kitchen: Recipes and Stories",
+    "price": 33.37,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/my-paris-kitchen-recipes-and-stories_910/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:55:28.469301"
+  },
+  {
+    "title": "Masks and Shadows",
+    "price": 56.4,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/masks-and-shadows_909/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:55:33.732425"
+  },
+  {
+    "title": "Mama Tried: Traditional Italian Cooking for the Screwed, Crude, Vegan, and Tattooed",
+    "price": 14.02,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/mama-tried-traditional-italian-cooking-for-the-screwed-crude-vegan-and-tattooed_908/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:55:40.731680"
+  },
+  {
+    "title": "Lumberjanes, Vol. 2: Friendship to the Max (Lumberjanes #5-8)",
+    "price": 46.91,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/lumberjanes-vol-2-friendship-to-the-max-lumberjanes-5-8_907/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:55:49.210064"
+  },
+  {
+    "title": "Lumberjanes, Vol. 1: Beware the Kitten Holy (Lumberjanes #1-4)",
+    "price": 45.61,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/lumberjanes-vol-1-beware-the-kitten-holy-lumberjanes-1-4_906/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:55:55.948437"
+  },
+  {
+    "title": "Lumberjanes Vol. 3: A Terrible Plan (Lumberjanes #9-12)",
+    "price": 19.92,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/lumberjanes-vol-3-a-terrible-plan-lumberjanes-9-12_905/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:56:02.594335"
+  },
+  {
+    "title": "Layered: Baking, Building, and Styling Spectacular Cakes",
+    "price": 40.11,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/layered-baking-building-and-styling-spectacular-cakes_904/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:56:10.362424"
+  },
+  {
+    "title": "Judo: Seven Steps to Black Belt (an Introductory Guide for Beginners)",
+    "price": 53.9,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/judo-seven-steps-to-black-belt-an-introductory-guide-for-beginners_903/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:56:17.772187"
+  },
+  {
+    "title": "Join",
+    "price": 35.67,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/join_902/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:56:25.867105"
+  },
+  {
+    "title": "In the Country We Love: My Family Divided",
+    "price": 22.0,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/in-the-country-we-love-my-family-divided_901/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:56:32.924302"
+  },
+  {
+    "title": "Immunity: How Elie Metchnikoff Changed the Course of Modern Medicine",
+    "price": 57.36,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/immunity-how-elie-metchnikoff-changed-the-course-of-modern-medicine_900/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:56:42.011158"
+  },
+  {
+    "title": "I Hate Fairyland, Vol. 1: Madly Ever After (I Hate Fairyland (Compilations) #1-5)",
+    "price": 29.17,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/i-hate-fairyland-vol-1-madly-ever-after-i-hate-fairyland-compilations-1-5_899/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:56:48.699700"
+  },
+  {
+    "title": "I am a Hero Omnibus Volume 1",
+    "price": 54.63,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/i-am-a-hero-omnibus-volume-1_898/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:56:55.160050"
+  },
+  {
+    "title": "How to Be Miserable: 40 Strategies You Already Use",
+    "price": 46.03,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/how-to-be-miserable-40-strategies-you-already-use_897/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:57:03.060657"
+  },
+  {
+    "title": "Her Backup Boyfriend (The Sorensen Family #1)",
+    "price": 33.97,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/her-backup-boyfriend-the-sorensen-family-1_896/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:57:10.458085"
+  },
+  {
+    "title": "Giant Days, Vol. 2 (Giant Days #5-8)",
+    "price": 22.11,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/giant-days-vol-2-giant-days-5-8_895/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:57:16.691489"
+  },
+  {
+    "title": "Forever and Forever: The Courtship of Henry Longfellow and Fanny Appleton",
+    "price": 29.69,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/forever-and-forever-the-courtship-of-henry-longfellow-and-fanny-appleton_894/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:57:23.540954"
+  },
+  {
+    "title": "First and First (Five Boroughs #3)",
+    "price": 15.97,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/first-and-first-five-boroughs-3_893/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:57:31.265249"
+  },
+  {
+    "title": "Fifty Shades Darker (Fifty Shades #2)",
+    "price": 21.96,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/fifty-shades-darker-fifty-shades-2_892/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:57:39.257002"
+  },
+  {
+    "title": "Everydata: The Misinformation Hidden in the Little Data You Consume Every Day",
+    "price": 54.35,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/everydata-the-misinformation-hidden-in-the-little-data-you-consume-every-day_891/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:57:45.977260"
+  },
+  {
+    "title": "Don't Be a Jerk: And Other Practical Advice from Dogen, Japan's Greatest Zen Master",
+    "price": 37.97,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/dont-be-a-jerk-and-other-practical-advice-from-dogen-japans-greatest-zen-master_890/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:57:51.972619"
+  },
+  {
+    "title": "Danganronpa Volume 1",
+    "price": 51.99,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/danganronpa-volume-1_889/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:57:58.811906"
+  },
+  {
+    "title": "Crown of Midnight (Throne of Glass #2)",
+    "price": 43.29,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/crown-of-midnight-throne-of-glass-2_888/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:58:03.757657"
+  },
+  {
+    "title": "Codename Baboushka, Volume 1: The Conclave of Death",
+    "price": 36.72,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/codename-baboushka-volume-1-the-conclave-of-death_887/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:58:10.146381"
+  },
+  {
+    "title": "Camp Midnight",
+    "price": 17.08,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/camp-midnight_886/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:58:16.859839"
+  },
+  {
+    "title": "Call the Nurse: True Stories of a Country Nurse on a Scottish Isle",
+    "price": 29.14,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/call-the-nurse-true-stories-of-a-country-nurse-on-a-scottish-isle_885/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:58:24.069572"
+  },
+  {
+    "title": "Burning",
+    "price": 28.81,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/burning_884/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:58:29.214160"
+  },
+  {
+    "title": "Bossypants",
+    "price": 49.46,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/bossypants_883/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:58:36.258940"
+  },
+  {
+    "title": "Bitch Planet, Vol. 1: Extraordinary Machine (Bitch Planet (Collected Editions))",
+    "price": 37.92,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/bitch-planet-vol-1-extraordinary-machine-bitch-planet-collected-editions_882/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:58:44.231809"
+  },
+  {
+    "title": "Avatar: The Last Airbender: Smoke and Shadow, Part 3 (Smoke and Shadow #3)",
+    "price": 28.09,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/avatar-the-last-airbender-smoke-and-shadow-part-3-smoke-and-shadow-3_881/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:58:52.737601"
+  },
+  {
+    "title": "Algorithms to Live By: The Computer Science of Human Decisions",
+    "price": 30.81,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/algorithms-to-live-by-the-computer-science-of-human-decisions_880/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:59:02.913812"
+  },
+  {
+    "title": "A World of Flavor: Your Gluten Free Passport",
+    "price": 42.95,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/a-world-of-flavor-your-gluten-free-passport_879/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:59:10.055482"
+  },
+  {
+    "title": "A Piece of Sky, a Grain of Rice: A Memoir in Four Meditations",
+    "price": 56.76,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/a-piece-of-sky-a-grain-of-rice-a-memoir-in-four-meditations_878/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:59:14.924606"
+  },
+  {
+    "title": "A Murder in Time",
+    "price": 16.64,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/a-murder-in-time_877/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:59:22.291946"
+  },
+  {
+    "title": "A Flight of Arrows (The Pathfinders #2)",
+    "price": 55.53,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/a-flight-of-arrows-the-pathfinders-2_876/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:59:27.672006"
+  },
+  {
+    "title": "A Fierce and Subtle Poison",
+    "price": 28.13,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/a-fierce-and-subtle-poison_875/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:59:35.452825"
+  },
+  {
+    "title": "A Court of Thorns and Roses (A Court of Thorns and Roses #1)",
+    "price": 52.37,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/a-court-of-thorns-and-roses-a-court-of-thorns-and-roses-1_874/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:59:43.638030"
+  },
+  {
+    "title": "(Un)Qualified: How God Uses Broken People to Do Big Things",
+    "price": 54.0,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/unqualified-how-god-uses-broken-people-to-do-big-things_873/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:59:49.117570"
+  },
+  {
+    "title": "You Are What You Love: The Spiritual Power of Habit",
+    "price": 21.87,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/you-are-what-you-love-the-spiritual-power-of-habit_872/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T08:59:55.126705"
+  },
+  {
+    "title": "William Shakespeare's Star Wars: Verily, A New Hope (William Shakespeare's Star Wars #4)",
+    "price": 43.3,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/william-shakespeares-star-wars-verily-a-new-hope-william-shakespeares-star-wars-4_871/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:00:03.358232"
+  },
+  {
+    "title": "Tuesday Nights in 1980",
+    "price": 21.04,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/tuesday-nights-in-1980_870/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:00:10.895581"
+  },
+  {
+    "title": "Tracing Numbers on a Train",
+    "price": 41.6,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/tracing-numbers-on-a-train_869/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:00:18.533677"
+  },
+  {
+    "title": "Throne of Glass (Throne of Glass #1)",
+    "price": 35.07,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/throne-of-glass-throne-of-glass-1_868/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:00:26.525757"
+  },
+  {
+    "title": "Thomas Jefferson and the Tripoli Pirates: The Forgotten War That Changed American History",
+    "price": 59.64,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/thomas-jefferson-and-the-tripoli-pirates-the-forgotten-war-that-changed-american-history_867/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:00:31.576774"
+  },
+  {
+    "title": "Thirteen Reasons Why",
+    "price": 52.72,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/thirteen-reasons-why_866/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:00:38.296076"
+  },
+  {
+    "title": "The White Cat and the Monk: A Retelling of the Poem “Pangur Bán”",
+    "price": 58.08,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-white-cat-and-the-monk-a-retelling-of-the-poem-pangur-ban_865/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:00:43.588784"
+  },
+  {
+    "title": "The Wedding Dress",
+    "price": 24.12,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-wedding-dress_864/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:00:50.544987"
+  },
+  {
+    "title": "The Vacationers",
+    "price": 42.15,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-vacationers_863/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:00:57.434860"
+  },
+  {
+    "title": "The Third Wave: An Entrepreneur’s Vision of the Future",
+    "price": 12.61,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-third-wave-an-entrepreneurs-vision-of-the-future_862/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:01:03.978012"
+  },
+  {
+    "title": "The Stranger",
+    "price": 17.44,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-stranger_861/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:01:11.488054"
+  },
+  {
+    "title": "The Shadow Hero (The Shadow Hero)",
+    "price": 33.14,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-shadow-hero-the-shadow-hero_860/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:01:21.969560"
+  },
+  {
+    "title": "The Secret (The Secret #1)",
+    "price": 27.37,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-secret-the-secret-1_859/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:01:28.308970"
+  },
+  {
+    "title": "The Regional Office Is Under Attack!",
+    "price": 51.36,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-regional-office-is-under-attack_858/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:01:36.618637"
+  },
+  {
+    "title": "The Psychopath Test: A Journey Through the Madness Industry",
+    "price": 36.0,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-psychopath-test-a-journey-through-the-madness-industry_857/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:01:44.109501"
+  },
+  {
+    "title": "The Project",
+    "price": 10.65,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-project_856/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:01:49.405604"
+  },
+  {
+    "title": "The Power of Now: A Guide to Spiritual Enlightenment",
+    "price": 43.54,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-power-of-now-a-guide-to-spiritual-enlightenment_855/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:01:57.209221"
+  },
+  {
+    "title": "The Omnivore's Dilemma: A Natural History of Four Meals",
+    "price": 38.21,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-omnivores-dilemma-a-natural-history-of-four-meals_854/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:02:03.934264"
+  },
+  {
+    "title": "The Nerdy Nummies Cookbook: Sweet Treats for the Geek in All of Us",
+    "price": 37.34,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-nerdy-nummies-cookbook-sweet-treats-for-the-geek-in-all-of-us_853/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:02:10.098297"
+  },
+  {
+    "title": "The Murder of Roger Ackroyd (Hercule Poirot #4)",
+    "price": 44.1,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-murder-of-roger-ackroyd-hercule-poirot-4_852/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:02:17.339523"
+  },
+  {
+    "title": "The Mistake (Off-Campus #2)",
+    "price": 43.29,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-mistake-off-campus-2_851/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:02:25.000909"
+  },
+  {
+    "title": "The Matchmaker's Playbook (Wingmen Inc. #1)",
+    "price": 55.85,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-matchmakers-playbook-wingmen-inc-1_850/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:02:31.007411"
+  },
+  {
+    "title": "The Love and Lemons Cookbook: An Apple-to-Zucchini Celebration of Impromptu Cooking",
+    "price": 37.6,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-love-and-lemons-cookbook-an-apple-to-zucchini-celebration-of-impromptu-cooking_849/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:02:38.019563"
+  },
+  {
+    "title": "The Long Shadow of Small Ghosts: Murder and Memory in an American City",
+    "price": 10.97,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-long-shadow-of-small-ghosts-murder-and-memory-in-an-american-city_848/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:02:45.485770"
+  },
+  {
+    "title": "The Kite Runner",
+    "price": 41.82,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-kite-runner_847/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:02:51.973570"
+  },
+  {
+    "title": "The House by the Lake",
+    "price": 36.95,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-house-by-the-lake_846/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:02:57.604635"
+  },
+  {
+    "title": "The Glittering Court (The Glittering Court #1)",
+    "price": 44.28,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-glittering-court-the-glittering-court-1_845/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:03:05.413255"
+  },
+  {
+    "title": "The Girl on the Train",
+    "price": 55.02,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-girl-on-the-train_844/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:03:14.140404"
+  },
+  {
+    "title": "The Genius of Birds",
+    "price": 17.24,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-genius-of-birds_843/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:03:21.237424"
+  },
+  {
+    "title": "The Emerald Mystery",
+    "price": 23.15,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-emerald-mystery_842/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:03:29.156874"
+  },
+  {
+    "title": "The Cookies & Cups Cookbook: 125+ sweet & savory recipes reminding you to Always Eat Dessert First",
+    "price": 41.25,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-cookies-cups-cookbook-125-sweet-savory-recipes-reminding-you-to-always-eat-dessert-first_841/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:03:36.013326"
+  },
+  {
+    "title": "The Bridge to Consciousness: I'm Writing the Bridge Between Science and Our Old and New Beliefs.",
+    "price": 32.0,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-bridge-to-consciousness-im-writing-the-bridge-between-science-and-our-old-and-new-beliefs_840/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:03:44.355919"
+  },
+  {
+    "title": "The Artist's Way: A Spiritual Path to Higher Creativity",
+    "price": 38.49,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-artists-way-a-spiritual-path-to-higher-creativity_839/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:03:51.104600"
+  },
+  {
+    "title": "The Art of War",
+    "price": 33.34,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-art-of-war_838/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:03:57.694502"
+  },
+  {
+    "title": "The Argonauts",
+    "price": 10.93,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-argonauts_837/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:04:04.135167"
+  },
+  {
+    "title": "The 10% Entrepreneur: Live Your Startup Dream Without Quitting Your Day Job",
+    "price": 27.55,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/the-10-entrepreneur-live-your-startup-dream-without-quitting-your-day-job_836/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:04:09.298321"
+  },
+  {
+    "title": "Suddenly in Love (Lake Haven #1)",
+    "price": 55.99,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/suddenly-in-love-lake-haven-1_835/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:04:16.497439"
+  },
+  {
+    "title": "Something More Than This",
+    "price": 16.24,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/something-more-than-this_834/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:04:22.582809"
+  },
+  {
+    "title": "Soft Apocalypse",
+    "price": 26.12,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/soft-apocalypse_833/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:04:30.833447"
+  },
+  {
+    "title": "So You've Been Publicly Shamed",
+    "price": 12.23,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/so-youve-been-publicly-shamed_832/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:04:38.539978"
+  },
+  {
+    "title": "Shoe Dog: A Memoir by the Creator of NIKE",
+    "price": 23.99,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/shoe-dog-a-memoir-by-the-creator-of-nike_831/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:04:43.684233"
+  },
+  {
+    "title": "Shobu Samurai, Project Aryoku (#3)",
+    "price": 29.06,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/shobu-samurai-project-aryoku-3_830/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:04:48.909856"
+  },
+  {
+    "title": "Secrets and Lace (Fatal Hearts #1)",
+    "price": 20.27,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/secrets-and-lace-fatal-hearts-1_829/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:04:54.769662"
+  },
+  {
+    "title": "Scarlett Epstein Hates It Here",
+    "price": 43.55,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/scarlett-epstein-hates-it-here_828/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:05:01.443908"
+  },
+  {
+    "title": "Romero and Juliet: A Tragic Tale of Love and Zombies",
+    "price": 36.94,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/romero-and-juliet-a-tragic-tale-of-love-and-zombies_827/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:05:10.183023"
+  },
+  {
+    "title": "Redeeming Love",
+    "price": 20.47,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/redeeming-love_826/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:05:16.998389"
+  },
+  {
+    "title": "Poses for Artists Volume 1 - Dynamic and Sitting Poses: An Essential Reference for Figure Drawing and the Human Form",
+    "price": 41.06,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/poses-for-artists-volume-1-dynamic-and-sitting-poses-an-essential-reference-for-figure-drawing-and-the-human-form_825/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:05:21.610224"
+  },
+  {
+    "title": "Poems That Make Grown Women Cry",
+    "price": 14.19,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/poems-that-make-grown-women-cry_824/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:05:30.270347"
+  },
+  {
+    "title": "Nightingale, Sing",
+    "price": 38.28,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/nightingale-sing_823/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:05:36.088212"
+  },
+  {
+    "title": "Night Sky with Exit Wounds",
+    "price": 41.05,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/night-sky-with-exit-wounds_822/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:05:42.179984"
+  },
+  {
+    "title": "Mrs. Houdini",
+    "price": 30.25,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/mrs-houdini_821/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:05:48.116253"
+  },
+  {
+    "title": "Modern Romance",
+    "price": 28.26,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/modern-romance_820/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:05:55.217845"
+  },
+  {
+    "title": "Miss Peregrine’s Home for Peculiar Children (Miss Peregrine’s Peculiar Children #1)",
+    "price": 10.76,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/miss-peregrines-home-for-peculiar-children-miss-peregrines-peculiar-children-1_819/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:06:02.416336"
+  },
+  {
+    "title": "Louisa: The Extraordinary Life of Mrs. Adams",
+    "price": 16.85,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/louisa-the-extraordinary-life-of-mrs-adams_818/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:06:08.717140"
+  },
+  {
+    "title": "Little Red",
+    "price": 13.47,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/little-red_817/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:06:16.996259"
+  },
+  {
+    "title": "Library of Souls (Miss Peregrine’s Peculiar Children #3)",
+    "price": 48.56,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/library-of-souls-miss-peregrines-peculiar-children-3_816/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:06:24.584127"
+  },
+  {
+    "title": "Large Print Heart of the Pride",
+    "price": 19.15,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/large-print-heart-of-the-pride_815/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:06:31.359583"
+  },
+  {
+    "title": "I Had a Nice Time And Other Lies...: How to find love & sh*t like that",
+    "price": 57.36,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/i-had-a-nice-time-and-other-lies-how-to-find-love-sht-like-that_814/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:06:37.625217"
+  },
+  {
+    "title": "Hollow City (Miss Peregrine’s Peculiar Children #2)",
+    "price": 42.98,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/hollow-city-miss-peregrines-peculiar-children-2_813/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:06:42.761281"
+  },
+  {
+    "title": "Grumbles",
+    "price": 22.16,
+    "rating": 2,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/grumbles_812/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:06:50.103582"
+  },
+  {
+    "title": "Full Moon over Noah’s Ark: An Odyssey to Mount Ararat and Beyond",
+    "price": 49.43,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/full-moon-over-noahs-ark-an-odyssey-to-mount-ararat-and-beyond_811/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:06:57.928343"
+  },
+  {
+    "title": "Frostbite (Vampire Academy #2)",
+    "price": 29.99,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/frostbite-vampire-academy-2_810/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:07:05.622873"
+  },
+  {
+    "title": "Follow You Home",
+    "price": 21.36,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/follow-you-home_809/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:07:13.043856"
+  },
+  {
+    "title": "First Steps for New Christians (Print Edition)",
+    "price": 29.0,
+    "rating": 1,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/first-steps-for-new-christians-print-edition_808/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:07:19.393442"
+  },
+  {
+    "title": "Finders Keepers (Bill Hodges Trilogy #2)",
+    "price": 53.53,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/finders-keepers-bill-hodges-trilogy-2_807/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:07:25.599011"
+  },
+  {
+    "title": "Fables, Vol. 1: Legends in Exile (Fables #1)",
+    "price": 41.62,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/fables-vol-1-legends-in-exile-fables-1_806/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:07:32.824482"
+  },
+  {
+    "title": "Eureka Trivia 6.0",
+    "price": 54.59,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/eureka-trivia-60_805/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:07:40.395183"
+  },
+  {
+    "title": "Drive: The Surprising Truth About What Motivates Us",
+    "price": 34.95,
+    "rating": 4,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/drive-the-surprising-truth-about-what-motivates-us_804/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:07:48.745323"
+  },
+  {
+    "title": "Done Rubbed Out (Reightman & Bailey #1)",
+    "price": 37.72,
+    "rating": 5,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/done-rubbed-out-reightman-bailey-1_803/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:07:57.354803"
+  },
+  {
+    "title": "Doing It Over (Most Likely To #1)",
+    "price": 35.61,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/doing-it-over-most-likely-to-1_802/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:08:03.440733"
+  },
+  {
+    "title": "Deliciously Ella Every Day: Quick and Easy Recipes for Gluten-Free Snacks, Packed Lunches, and Simple Meals",
+    "price": 42.16,
+    "rating": 3,
+    "in_stock": 1,
+    "category": "Unknown",
+    "url": "http://books.toscrape.com/deliciously-ella-every-day-quick-and-easy-recipes-for-gluten-free-snacks-packed-lunches-and-simple-meals_801/index.html",
+    "source": "books_toscrape",
+    "scraped_at": "2025-09-25T09:08:11.086777"
+  }
+]

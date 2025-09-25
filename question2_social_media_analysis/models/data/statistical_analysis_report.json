@@ -1,0 +1,1041 @@
+{
+  "analysis_timestamp": "2025-09-25T09:26:29.510338",
+  "dataset_overview": {
+    "total_rows": 200,
+    "total_columns": 13,
+    "numerical_columns": 6,
+    "categorical_columns": 7
+  },
+  "analysis_results": {
+    "descriptive_stats": {
+      "price": {
+        "count": 200,
+        "mean": 34.788303000000006,
+        "median": 35.64,
+        "std": 14.0703509146393,
+        "var": 197.974774861091,
+        "min": 10.16,
+        "max": 58.0803,
+        "range": 47.9203,
+        "q25": 21.990000000000002,
+        "q75": 46.11,
+        "iqr": 24.119999999999997,
+        "skewness": 0.004511306783368181,
+        "kurtosis": -1.2306180516279681,
+        "mode": null,
+        "mode_count": null,
+        "coef_var": 0.40445637473720114
+      },
+      "rating": {
+        "count": 200,
+        "mean": 2.865,
+        "median": 3.0,
+        "std": 1.4480245163670402,
+        "var": 2.0967750000000005,
+        "min": 1.0,
+        "max": 5.0,
+        "range": 4.0,
+        "q25": 2.0,
+        "q75": 4.0,
+        "iqr": 2.0,
+        "skewness": 0.11746802278782392,
+        "kurtosis": -1.3536823019018758,
+        "mode": null,
+        "mode_count": null,
+        "coef_var": 0.5054186793602234
+      },
+      "in_stock": {
+        "count": 200,
+        "mean": 1.0,
+        "median": 1.0,
+        "std": 0.0,
+        "var": 0.0,
+        "min": 1.0,
+        "max": 1.0,
+        "range": 0.0,
+        "q25": 1.0,
+        "q75": 1.0,
+        "iqr": 0.0,
+        "skewness": NaN,
+        "kurtosis": NaN,
+        "mode": null,
+        "mode_count": null,
+        "coef_var": 0.0
+      },
+      "title_length": {
+        "count": 200,
+        "mean": 43.515,
+        "median": 37.0,
+        "std": 29.840572631905037,
+        "var": 890.4597749999999,
+        "min": 4.0,
+        "max": 175.0,
+        "range": 171.0,
+        "q25": 19.75,
+        "q75": 59.5,
+        "iqr": 39.75,
+        "skewness": 1.3277647267390484,
+        "kurtosis": 2.5563968565874706,
+        "mode": null,
+        "mode_count": null,
+        "coef_var": 0.6857537086500066
+      },
+      "title_word_count": {
+        "count": 200,
+        "mean": 7.345,
+        "median": 6.5,
+        "std": 4.638531556430332,
+        "var": 21.515975000000005,
+        "min": 1.0,
+        "max": 26.0,
+        "range": 25.0,
+        "q25": 4.0,
+        "q75": 10.0,
+        "iqr": 6.0,
+        "skewness": 1.008440399792803,
+        "kurtosis": 1.1946625102709838,
+        "mode": null,
+        "mode_count": null,
+        "coef_var": 0.6315223357971862
+      },
+      "value_score": {
+        "count": 200,
+        "mean": 0.09690476352247063,
+        "median": 0.08238027940413836,
+        "std": 0.07137271282065738,
+        "var": 0.00509406413538003,
+        "min": 0.0169261158118696,
+        "max": 0.3673769287288758,
+        "range": 0.3504508129170062,
+        "q25": 0.04793309370188398,
+        "q75": 0.12623113677956357,
+        "iqr": 0.0782980430776796,
+        "skewness": 1.4243094321844125,
+        "kurtosis": 1.8368027224201473,
+        "mode": null,
+        "mode_count": null,
+        "coef_var": 0.7365242969104117
+      }
+    },
+    "price_distribution": {
+      "overall_distribution": {
+        "mean": 34.788303000000006,
+        "median": 35.64,
+        "std": 14.0703509146393,
+        "percentiles": {
+          "10th": 16.213,
+          "25th": 21.990000000000002,
+          "75th": 46.11,
+          "90th": 54.374,
+          "95th": 56.4005,
+          "99th": 58.080003
+        }
+      },
+      "category_distributions": {
+        "Business": {
+          "count": 1,
+          "mean": 33.34,
+          "median": 33.34,
+          "std": NaN,
+          "min": 33.34,
+          "max": 33.34
+        },
+        "Default": {
+          "count": 3,
+          "mean": 18.17,
+          "median": 17.93,
+          "std": 4.31,
+          "min": 13.99,
+          "max": 22.6
+        },
+        "Fiction": {
+          "count": 1,
+          "mean": 50.1,
+          "median": 50.1,
+          "std": NaN,
+          "min": 50.1,
+          "max": 50.1
+        },
+        "Historical Fiction": {
+          "count": 1,
+          "mean": 53.74,
+          "median": 53.74,
+          "std": NaN,
+          "min": 53.74,
+          "max": 53.74
+        },
+        "History": {
+          "count": 1,
+          "mean": 54.23,
+          "median": 54.23,
+          "std": NaN,
+          "min": 54.23,
+          "max": 54.23
+        },
+        "Music": {
+          "count": 2,
+          "mean": 46.14,
+          "median": 46.14,
+          "std": 15.72,
+          "min": 35.02,
+          "max": 57.25
+        },
+        "Mystery": {
+          "count": 1,
+          "mean": 47.82,
+          "median": 47.82,
+          "std": NaN,
+          "min": 47.82,
+          "max": 47.82
+        },
+        "Poetry": {
+          "count": 4,
+          "mean": 37.12,
+          "median": 37.83,
+          "std": 17.19,
+          "min": 20.66,
+          "max": 52.15
+        },
+        "Politics": {
+          "count": 1,
+          "mean": 51.33,
+          "median": 51.33,
+          "std": NaN,
+          "min": 51.33,
+          "max": 51.33
+        },
+        "Science Fiction": {
+          "count": 1,
+          "mean": 37.59,
+          "median": 37.59,
+          "std": NaN,
+          "min": 37.59,
+          "max": 37.59
+        },
+        "Sequential Art": {
+          "count": 1,
+          "mean": 52.29,
+          "median": 52.29,
+          "std": NaN,
+          "min": 52.29,
+          "max": 52.29
+        },
+        "Travel": {
+          "count": 1,
+          "mean": 45.17,
+          "median": 45.17,
+          "std": NaN,
+          "min": 45.17,
+          "max": 45.17
+        },
+        "Unknown": {
+          "count": 180,
+          "mean": 34.43,
+          "median": 35.34,
+          "std": 13.98,
+          "min": 10.16,
+          "max": 58.08
+        },
+        "Young Adult": {
+          "count": 2,
+          "mean": 20.06,
+          "median": 20.06,
+          "std": 3.67,
+          "min": 17.46,
+          "max": 22.65
+        }
+      },
+      "category_comparisons": {}
+    },
+    "rating_analysis": {
+      "rating_distribution": {
+        "counts": {
+          "1": 49,
+          "2": 41,
+          "3": 35,
+          "4": 38,
+          "5": 37
+        },
+        "percentages": {
+          "1": 24.5,
+          "2": 20.5,
+          "3": 17.5,
+          "4": 19.0,
+          "5": 18.5
+        }
+      },
+      "price_rating_relationship": {
+        "pearson_correlation": 0.017854402700230268,
+        "pearson_p_value": 0.8018630407324264,
+        "spearman_correlation": 0.015188468925870627,
+        "spearman_p_value": 0.8309655797236826
+      },
+      "rating_statistics": {
+        "mean": 2.865,
+        "median": 3.0,
+        "mode": null,
+        "std": 1.4480245163670402,
+        "skewness": 0.11746802278782392,
+        "kurtosis": -1.3536823019018758
+      }
+    },
+    "correlation_analysis": {
+      "pearson_correlation": {
+        "price": {
+          "price": 1.0,
+          "rating": 0.017854402700230126,
+          "in_stock": NaN,
+          "title_length": 0.0871608529110987,
+          "title_word_count": 0.11248695653329459,
+          "value_score": -0.6005114021232009
+        },
+        "rating": {
+          "price": 0.017854402700230126,
+          "rating": 1.0,
+          "in_stock": NaN,
+          "title_length": -0.029980989935899552,
+          "title_word_count": -0.017631406685852252,
+          "value_score": 0.6794046989367569
+        },
+        "in_stock": {
+          "price": NaN,
+          "rating": NaN,
+          "in_stock": NaN,
+          "title_length": NaN,
+          "title_word_count": NaN,
+          "value_score": NaN
+        },
+        "title_length": {
+          "price": 0.0871608529110987,
+          "rating": -0.029980989935899552,
+          "in_stock": NaN,
+          "title_length": 1.0,
+          "title_word_count": 0.9702411586364695,
+          "value_score": -0.07296242118369152
+        },
+        "title_word_count": {
+          "price": 0.11248695653329459,
+          "rating": -0.017631406685852252,
+          "in_stock": NaN,
+          "title_length": 0.9702411586364695,
+          "title_word_count": 1.0,
+          "value_score": -0.09839794375600895
+        },
+        "value_score": {
+          "price": -0.6005114021232009,
+          "rating": 0.6794046989367569,
+          "in_stock": NaN,
+          "title_length": -0.07296242118369152,
+          "title_word_count": -0.09839794375600895,
+          "value_score": 1.0
+        }
+      },
+      "spearman_correlation": {
+        "price": {
+          "price": 1.0,
+          "rating": 0.015188468925870627,
+          "in_stock": NaN,
+          "title_length": 0.1432091316387831,
+          "title_word_count": 0.14552298198932637,
+          "value_score": -0.5650980727461958
+        },
+        "rating": {
+          "price": 0.015188468925870627,
+          "rating": 1.0,
+          "in_stock": NaN,
+          "title_length": -0.020604139624720064,
+          "title_word_count": -0.01500606534063105,
+          "value_score": 0.7893906286395983
+        },
+        "in_stock": {
+          "price": NaN,
+          "rating": NaN,
+          "in_stock": NaN,
+          "title_length": NaN,
+          "title_word_count": NaN,
+          "value_score": NaN
+        },
+        "title_length": {
+          "price": 0.1432091316387831,
+          "rating": -0.020604139624720064,
+          "in_stock": NaN,
+          "title_length": 1.0,
+          "title_word_count": 0.9738772102611337,
+          "value_score": -0.08858533380649693
+        },
+        "title_word_count": {
+          "price": 0.14552298198932637,
+          "rating": -0.01500606534063105,
+          "in_stock": NaN,
+          "title_length": 0.9738772102611337,
+          "title_word_count": 1.0,
+          "value_score": -0.08949704447574891
+        },
+        "value_score": {
+          "price": -0.5650980727461958,
+          "rating": 0.7893906286395983,
+          "in_stock": NaN,
+          "title_length": -0.08858533380649693,
+          "title_word_count": -0.08949704447574891,
+          "value_score": 1.0
+        }
+      },
+      "significant_correlations": [
+        {
+          "var1": "price",
+          "var2": "value_score",
+          "pearson_corr": -0.600511402123201,
+          "p_value": 5.5121567349954924e-21
+        },
+        {
+          "var1": "rating",
+          "var2": "value_score",
+          "pearson_corr": 0.6794046989367575,
+          "p_value": 1.9887141806638818e-28
+        },
+        {
+          "var1": "title_length",
+          "var2": "title_word_count",
+          "pearson_corr": 0.9702411586364694,
+          "p_value": 6.478126644604875e-124
+        }
+      ]
+    },
+    "category_analysis": {
+      "frequency_distribution": {
+        "counts": {
+          "Unknown": 180,
+          "Poetry": 4,
+          "Default": 3,
+          "Young Adult": 2,
+          "Music": 2,
+          "Historical Fiction": 1,
+          "Fiction": 1,
+          "Mystery": 1,
+          "History": 1,
+          "Business": 1,
+          "Sequential Art": 1,
+          "Science Fiction": 1,
+          "Politics": 1,
+          "Travel": 1
+        },
+        "percentages": {
+          "Unknown": 90.0,
+          "Poetry": 2.0,
+          "Default": 1.5,
+          "Young Adult": 1.0,
+          "Music": 1.0,
+          "Historical Fiction": 0.5,
+          "Fiction": 0.5,
+          "Mystery": 0.5,
+          "History": 0.5,
+          "Business": 0.5,
+          "Sequential Art": 0.5,
+          "Science Fiction": 0.5,
+          "Politics": 0.5,
+          "Travel": 0.5
+        },
+        "total_categories": 14,
+        "most_popular": "Unknown",
+        "least_popular": "Travel"
+      },
+      "category_statistics": {
+        "price": {
+          "Business": {
+            "count": 1,
+            "mean": 33.34,
+            "median": 33.34,
+            "std": NaN
+          },
+          "Default": {
+            "count": 3,
+            "mean": 18.17,
+            "median": 17.93,
+            "std": 4.31
+          },
+          "Fiction": {
+            "count": 1,
+            "mean": 50.1,
+            "median": 50.1,
+            "std": NaN
+          },
+          "Historical Fiction": {
+            "count": 1,
+            "mean": 53.74,
+            "median": 53.74,
+            "std": NaN
+          },
+          "History": {
+            "count": 1,
+            "mean": 54.23,
+            "median": 54.23,
+            "std": NaN
+          },
+          "Music": {
+            "count": 2,
+            "mean": 46.14,
+            "median": 46.14,
+            "std": 15.72
+          },
+          "Mystery": {
+            "count": 1,
+            "mean": 47.82,
+            "median": 47.82,
+            "std": NaN
+          },
+          "Poetry": {
+            "count": 4,
+            "mean": 37.12,
+            "median": 37.83,
+            "std": 17.19
+          },
+          "Politics": {
+            "count": 1,
+            "mean": 51.33,
+            "median": 51.33,
+            "std": NaN
+          },
+          "Science Fiction": {
+            "count": 1,
+            "mean": 37.59,
+            "median": 37.59,
+            "std": NaN
+          },
+          "Sequential Art": {
+            "count": 1,
+            "mean": 52.29,
+            "median": 52.29,
+            "std": NaN
+          },
+          "Travel": {
+            "count": 1,
+            "mean": 45.17,
+            "median": 45.17,
+            "std": NaN
+          },
+          "Unknown": {
+            "count": 180,
+            "mean": 34.43,
+            "median": 35.34,
+            "std": 13.98
+          },
+          "Young Adult": {
+            "count": 2,
+            "mean": 20.06,
+            "median": 20.06,
+            "std": 3.67
+          }
+        },
+        "rating": {
+          "Business": {
+            "count": 1,
+            "mean": 4.0,
+            "median": 4.0,
+            "std": NaN
+          },
+          "Default": {
+            "count": 3,
+            "mean": 3.0,
+            "median": 3.0,
+            "std": 1.0
+          },
+          "Fiction": {
+            "count": 1,
+            "mean": 1.0,
+            "median": 1.0,
+            "std": NaN
+          },
+          "Historical Fiction": {
+            "count": 1,
+            "mean": 1.0,
+            "median": 1.0,
+            "std": NaN
+          },
+          "History": {
+            "count": 1,
+            "mean": 5.0,
+            "median": 5.0,
+            "std": NaN
+          },
+          "Music": {
+            "count": 2,
+            "mean": 4.0,
+            "median": 4.0,
+            "std": 1.41
+          },
+          "Mystery": {
+            "count": 1,
+            "mean": 4.0,
+            "median": 4.0,
+            "std": NaN
+          },
+          "Poetry": {
+            "count": 4,
+            "mean": 2.25,
+            "median": 2.0,
+            "std": 1.5
+          },
+          "Politics": {
+            "count": 1,
+            "mean": 2.0,
+            "median": 2.0,
+            "std": NaN
+          },
+          "Science Fiction": {
+            "count": 1,
+            "mean": 1.0,
+            "median": 1.0,
+            "std": NaN
+          },
+          "Sequential Art": {
+            "count": 1,
+            "mean": 5.0,
+            "median": 5.0,
+            "std": NaN
+          },
+          "Travel": {
+            "count": 1,
+            "mean": 2.0,
+            "median": 2.0,
+            "std": NaN
+          },
+          "Unknown": {
+            "count": 180,
+            "mean": 2.87,
+            "median": 3.0,
+            "std": 1.44
+          },
+          "Young Adult": {
+            "count": 2,
+            "mean": 3.0,
+            "median": 3.0,
+            "std": 2.83
+          }
+        },
+        "in_stock": {
+          "Business": {
+            "count": 1,
+            "mean": 1.0,
+            "median": 1.0,
+            "std": NaN
+          },
+          "Default": {
+            "count": 3,
+            "mean": 1.0,
+            "median": 1.0,
+            "std": 0.0
+          },
+          "Fiction": {
+            "count": 1,
+            "mean": 1.0,
+            "median": 1.0,
+            "std": NaN
+          },
+          "Historical Fiction": {
+            "count": 1,
+            "mean": 1.0,
+            "median": 1.0,
+            "std": NaN
+          },
+          "History": {
+            "count": 1,
+            "mean": 1.0,
+            "median": 1.0,
+            "std": NaN
+          },
+          "Music": {
+            "count": 2,
+            "mean": 1.0,
+            "median": 1.0,
+            "std": 0.0
+          },
+          "Mystery": {
+            "count": 1,
+            "mean": 1.0,
+            "median": 1.0,
+            "std": NaN
+          },
+          "Poetry": {
+            "count": 4,
+            "mean": 1.0,
+            "median": 1.0,
+            "std": 0.0
+          },
+          "Politics": {
+            "count": 1,
+            "mean": 1.0,
+            "median": 1.0,
+            "std": NaN
+          },
+          "Science Fiction": {
+            "count": 1,
+            "mean": 1.0,
+            "median": 1.0,
+            "std": NaN
+          },
+          "Sequential Art": {
+            "count": 1,
+            "mean": 1.0,
+            "median": 1.0,
+            "std": NaN
+          },
+          "Travel": {
+            "count": 1,
+            "mean": 1.0,
+            "median": 1.0,
+            "std": NaN
+          },
+          "Unknown": {
+            "count": 180,
+            "mean": 1.0,
+            "median": 1.0,
+            "std": 0.0
+          },
+          "Young Adult": {
+            "count": 2,
+            "mean": 1.0,
+            "median": 1.0,
+            "std": 0.0
+          }
+        },
+        "title_length": {
+          "Business": {
+            "count": 1,
+            "mean": 50.0,
+            "median": 50.0,
+            "std": NaN
+          },
+          "Default": {
+            "count": 3,
+            "mean": 74.67,
+            "median": 87.0,
+            "std": 27.65
+          },
+          "Fiction": {
+            "count": 1,
+            "mean": 10.0,
+            "median": 10.0,
+            "std": NaN
+          },
+          "Historical Fiction": {
+            "count": 1,
+            "mean": 18.0,
+            "median": 18.0,
+            "std": NaN
+          },
+          "History": {
+            "count": 1,
+            "mean": 37.0,
+            "median": 37.0,
+            "std": NaN
+          },
+          "Music": {
+            "count": 2,
+            "mean": 53.5,
+            "median": 53.5,
+            "std": 40.31
+          },
+          "Mystery": {
+            "count": 1,
+            "mean": 13.0,
+            "median": 13.0,
+            "std": NaN
+          },
+          "Poetry": {
+            "count": 4,
+            "mean": 14.75,
+            "median": 17.5,
+            "std": 7.54
+          },
+          "Politics": {
+            "count": 1,
+            "mean": 28.0,
+            "median": 28.0,
+            "std": NaN
+          },
+          "Science Fiction": {
+            "count": 1,
+            "mean": 53.0,
+            "median": 53.0,
+            "std": NaN
+          },
+          "Sequential Art": {
+            "count": 1,
+            "mean": 51.0,
+            "median": 51.0,
+            "std": NaN
+          },
+          "Travel": {
+            "count": 1,
+            "mean": 22.0,
+            "median": 22.0,
+            "std": NaN
+          },
+          "Unknown": {
+            "count": 180,
+            "mean": 44.47,
+            "median": 39.0,
+            "std": 30.15
+          },
+          "Young Adult": {
+            "count": 2,
+            "mean": 13.0,
+            "median": 13.0,
+            "std": 2.83
+          }
+        },
+        "title_word_count": {
+          "Business": {
+            "count": 1,
+            "mean": 9.0,
+            "median": 9.0,
+            "std": NaN
+          },
+          "Default": {
+            "count": 3,
+            "mean": 13.0,
+            "median": 15.0,
+            "std": 6.24
+          },
+          "Fiction": {
+            "count": 1,
+            "mean": 1.0,
+            "median": 1.0,
+            "std": NaN
+          },
+          "Historical Fiction": {
+            "count": 1,
+            "mean": 3.0,
+            "median": 3.0,
+            "std": NaN
+          },
+          "History": {
+            "count": 1,
+            "mean": 6.0,
+            "median": 6.0,
+            "std": NaN
+          },
+          "Music": {
+            "count": 2,
+            "mean": 9.5,
+            "median": 9.5,
+            "std": 4.95
+          },
+          "Mystery": {
+            "count": 1,
+            "mean": 2.0,
+            "median": 2.0,
+            "std": NaN
+          },
+          "Poetry": {
+            "count": 4,
+            "mean": 2.75,
+            "median": 2.5,
+            "std": 1.71
+          },
+          "Politics": {
+            "count": 1,
+            "mean": 3.0,
+            "median": 3.0,
+            "std": NaN
+          },
+          "Science Fiction": {
+            "count": 1,
+            "mean": 7.0,
+            "median": 7.0,
+            "std": NaN
+          },
+          "Sequential Art": {
+            "count": 1,
+            "mean": 8.0,
+            "median": 8.0,
+            "std": NaN
+          },
+          "Travel": {
+            "count": 1,
+            "mean": 4.0,
+            "median": 4.0,
+            "std": NaN
+          },
+          "Unknown": {
+            "count": 180,
+            "mean": 7.51,
+            "median": 7.0,
+            "std": 4.63
+          },
+          "Young Adult": {
+            "count": 2,
+            "mean": 3.0,
+            "median": 3.0,
+            "std": 0.0
+          }
+        },
+        "value_score": {
+          "Business": {
+            "count": 1,
+            "mean": 0.12,
+            "median": 0.12,
+            "std": NaN
+          },
+          "Default": {
+            "count": 3,
+            "mean": 0.15,
+            "median": 0.16,
+            "std": 0.02
+          },
+          "Fiction": {
+            "count": 1,
+            "mean": 0.02,
+            "median": 0.02,
+            "std": NaN
+          },
+          "Historical Fiction": {
+            "count": 1,
+            "mean": 0.02,
+            "median": 0.02,
+            "std": NaN
+          },
+          "History": {
+            "count": 1,
+            "mean": 0.09,
+            "median": 0.09,
+            "std": NaN
+          },
+          "Music": {
+            "count": 2,
+            "mean": 0.1,
+            "median": 0.1,
+            "std": 0.06
+          },
+          "Mystery": {
+            "count": 1,
+            "mean": 0.08,
+            "median": 0.08,
+            "std": NaN
+          },
+          "Poetry": {
+            "count": 4,
+            "mean": 0.08,
+            "median": 0.05,
+            "std": 0.07
+          },
+          "Politics": {
+            "count": 1,
+            "mean": 0.04,
+            "median": 0.04,
+            "std": NaN
+          },
+          "Science Fiction": {
+            "count": 1,
+            "mean": 0.03,
+            "median": 0.03,
+            "std": NaN
+          },
+          "Sequential Art": {
+            "count": 1,
+            "mean": 0.09,
+            "median": 0.09,
+            "std": NaN
+          },
+          "Travel": {
+            "count": 1,
+            "mean": 0.04,
+            "median": 0.04,
+            "std": NaN
+          },
+          "Unknown": {
+            "count": 180,
+            "mean": 0.1,
+            "median": 0.08,
+            "std": 0.07
+          },
+          "Young Adult": {
+            "count": 2,
+            "mean": 0.16,
+            "median": 0.16,
+            "std": 0.16
+          }
+        }
+      },
+      "diversity_metrics": {
+        "shannon_diversity": 0.8174139655671999,
+        "simpson_diversity": 0.18894999999999962,
+        "gini_coefficient": 0.8535714285714286
+      }
+    },
+    "outlier_analysis": {
+      "price": {
+        "iqr_outliers": [],
+        "zscore_outliers": []
+      },
+      "rating": {
+        "iqr_outliers": [],
+        "zscore_outliers": []
+      },
+      "in_stock": {
+        "iqr_outliers": [],
+        "zscore_outliers": []
+      },
+      "title_length": {
+        "iqr_outliers": [
+          175,
+          127,
+          150,
+          163
+        ],
+        "zscore_outliers": [
+          175,
+          150,
+          163
+        ]
+      },
+      "title_word_count": {
+        "iqr_outliers": [
+          26,
+          22,
+          23,
+          20
+        ],
+        "zscore_outliers": [
+          26,
+          22,
+          23
+        ]
+      },
+      "value_score": {
+        "iqr_outliers": [
+          0.2708559046587215,
+          0.2679528403001072,
+          0.295159386068477,
+          0.2619515389652914,
+          0.2736726874657909,
+          0.3422313483915127,
+          0.3486750348675035,
+          0.2688172043010752,
+          0.2663115845539281,
+          0.3673769287288758,
+          0.2633311389071758
+        ],
+        "zscore_outliers": [
+          0.3422313483915127,
+          0.3486750348675035,
+          0.3673769287288758
+        ]
+      }
+    },
+    "hypothesis_tests": {}
+  },
+  "key_insights": [
+    "Average price: 34.79, Median price: 35.64",
+    "Strong correlation between price and value_score: -0.60 (p=0.000)",
+    "Strong correlation between rating and value_score: 0.68 (p=0.000)",
+    "Strong correlation between title_length and title_word_count: 0.97 (p=0.000)",
+    "Most popular category: Unknown, Least popular: Travel",
+    "4 IQR outliers detected in title_length",
+    "3 Z-score outliers detected in title_length",
+    "4 IQR outliers detected in title_word_count",
+    "3 Z-score outliers detected in title_word_count",
+    "11 IQR outliers detected in value_score",
+    "3 Z-score outliers detected in value_score"
+  ]
+}

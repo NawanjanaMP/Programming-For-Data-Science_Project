@@ -1,0 +1,17 @@
+[
+  {
+    "collection_timestamp": "2025-09-25T09:08:12.535045",
+    "books_collected": 200,
+    "rss_items_collected": 65,
+    "books_price_range": {
+      "min": 10.16,
+      "max": 59.64
+    },
+    "unique_categories": 14,
+    "sources": [
+      "https://www.wired.com/feed/rss",
+      "https://feeds.feedburner.com/oreilly/radar/atom",
+      "books_toscrape"
+    ]
+  }
+]
